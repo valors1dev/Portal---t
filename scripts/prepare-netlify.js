@@ -20,28 +20,18 @@ function copyIfExists(src, dest) {
 
 console.log('Preparing static assets for Netlify...');
 
-// 1. Copy server-logo.gif to favicon.ico in mctiers.com
-copyIfExists(
-  path.join(dataDir, 'server-logo.gif'),
-  path.join(root, 'favicon.ico')
-);
-
-// 2. Copy server-logo.gif (or logo alternatives) to icons/pvpclub.webp etc.
-const serverLogoSrc = path.join(dataDir, 'server-logo.gif');
-if (fs.existsSync(serverLogoSrc)) {
-  copyIfExists(serverLogoSrc, path.join(root, 'icons', 'pvpclub.webp'));
-  copyIfExists(serverLogoSrc, path.join(root, 'icons', 'pvpclub.png'));
-  copyIfExists(serverLogoSrc, path.join(root, 'icons', 'pvpclub.gif'));
-} else {
-  // Try server-logo.webp or png
-  const serverLogoWebp = path.join(dataDir, 'server-logo.webp');
-  const serverLogoPng = path.join(dataDir, 'server-logo.png');
-  if (fs.existsSync(serverLogoWebp)) {
-    copyIfExists(serverLogoWebp, path.join(root, 'icons', 'pvpclub.webp'));
-  } else if (fs.existsSync(serverLogoPng)) {
-    copyIfExists(serverLogoPng, path.join(root, 'icons', 'pvpclub.png'));
+// 1. Copy a lightweight icon to favicon.ico in mctiers.com
+// Try server-logo.webp (13KB) first, then logo.png (299KB), then fallback to gif
+if (!copyIfExists(path.join(dataDir, 'server-logo.webp'), path.join(root, 'favicon.ico'))) {
+  if (!copyIfExists(path.join(dataDir, 'logo.png'), path.join(root, 'favicon.ico'))) {
+    copyIfExists(path.join(dataDir, 'server-logo.gif'), path.join(root, 'favicon.ico'));
   }
 }
+
+// 2. Copy matching format icons to icons/pvpclub.*
+copyIfExists(path.join(dataDir, 'server-logo.webp'), path.join(root, 'icons', 'pvpclub.webp'));
+copyIfExists(path.join(dataDir, 'server-logo.gif'), path.join(root, 'icons', 'pvpclub.gif'));
+copyIfExists(path.join(dataDir, 'logo.png'), path.join(root, 'icons', 'pvpclub.png'));
 
 // 3. Copy logo candidates to nav_skip and logo
 const logoCandidates = [
