@@ -10,11 +10,13 @@
   from = "/api/*"
   to = "/.netlify/functions/api"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/skins/*"
   to = "/.netlify/functions/skins"
   status = 200
+  force = true
 
 # Native redirect proxy for Minecraft avatar/helm skins using Minotar
 [[redirects]]
