@@ -137,42 +137,6 @@
       }
     },
     {
-      "uuid": "00006df9-000d-4000-8000-00074d8d8761",
-      "name": "xxye__.",
-      "region": "AS",
-      "points": 23,
-      "rankings": {
-        "mace": {
-          "tier": 5,
-          "pos": 1,
-          "peak_tier": 5,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "nethop": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "uhc": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        }
-      }
-    },
-    {
       "uuid": "0000753b-000e-4000-8000-0007c8ebd2d5",
       "name": "_ta7nmay",
       "region": "AS",
@@ -4211,12 +4175,6 @@
           "pos": 1
         },
         {
-          "uuid": "00006df9-000d-4000-8000-00074d8d8761",
-          "name": "xxye__.",
-          "region": "AS",
-          "pos": 1
-        },
-        {
           "uuid": "c005415d-db16-4fe5-9241-97e3d90a1c15",
           "name": "Wild_Mish",
           "region": "AS",
@@ -5355,12 +5313,6 @@
           "name": "xxye_",
           "region": "AS",
           "pos": 1
-        },
-        {
-          "uuid": "00006df9-000d-4000-8000-00074d8d8761",
-          "name": "xxye__.",
-          "region": "AS",
-          "pos": 1
         }
       ],
       "4": [
@@ -5399,12 +5351,6 @@
         {
           "uuid": "21273faa-9c31-4bc5-b09b-613062616085",
           "name": "xxye_",
-          "region": "AS",
-          "pos": 0
-        },
-        {
-          "uuid": "00006df9-000d-4000-8000-00074d8d8761",
-          "name": "xxye__.",
           "region": "AS",
           "pos": 0
         },
@@ -6229,12 +6175,6 @@
         {
           "uuid": "21273faa-9c31-4bc5-b09b-613062616085",
           "name": "xxye_",
-          "region": "AS",
-          "pos": 1
-        },
-        {
-          "uuid": "00006df9-000d-4000-8000-00074d8d8761",
-          "name": "xxye__.",
           "region": "AS",
           "pos": 1
         },
