@@ -203,14 +203,23 @@ exports.handler = async (event, context) => {
   if (modeMatch) {
     const mode = modeMatch[1];
     if (mode === "list") {
-      const allModes = ["sword", "pot", "vanilla", "uhc", "smp", "nethop", "axe", "mace"];
+      const modeListMetadata = {
+        "sword":{"title":"Sword","info_text":"# Coming Soon\n\nCheck back later!","kit_image":"https://i.imgur.com/zYvJkeb.png","discord_url":"https://discord.gg/swordtiers"},
+        "nethop":{"title":"Netherite OP","info_text":"# Coming Soon\n\nCheck back later!","kit_image":"https://i.imgur.com/fMb2sIu.png","discord_url":"https://discord.gg/nethop"},
+        "pot":{"title":"Pot","info_text":"# Coming Soon\n\nCheck back later!","kit_image":"https://i.imgur.com/wO2dTF4.png","discord_url":"https://discord.gg/potionpvp"},
+        "uhc":{"title":"UHC","info_text":"# Coming Soon\n\nCheck back later!","kit_image":"https://i.imgur.com/UTHXIkJ.png","discord_url":"https://discord.gg/uhcpvp"},
+        "axe":{"title":"Axe","info_text":"# Coming Soon\n\nCheck back later!","kit_image":"https://i.imgur.com/lBJ4uW1.png","discord_url":"https://discord.gg/axepvp"},
+        "vanilla":{"title":"Vanilla","info_text":"# Coming Soon\n\nCheck back later!","kit_image":"https://i.imgur.com/PEYGKLo.png","discord_url":"https://discord.gg/cpvp"},
+        "mace":{"title":"Mace","info_text":"# Coming Soon\n\nCheck back later!","kit_image":"https://imgur.com/a/NgGZJ8e","discord_url":"https://discord.gg/2QsW3rTjqg"},
+        "smp":{"title":"SMP","info_text":"# Coming Soon\n\nCheck back later!","kit_image":"https://i.imgur.com/PDDWIey.png","discord_url":"https://discord.gg/smptiers"}
+      };
       return {
         statusCode: 200,
         headers: { 
           "Content-Type": "application/json; charset=utf-8",
           "Access-Control-Allow-Origin": "*"
         },
-        body: JSON.stringify(allModes)
+        body: JSON.stringify(modeListMetadata)
       };
     }
     
