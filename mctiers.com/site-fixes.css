@@ -72,15 +72,16 @@ header nav > div:first-child img {
 
 .player-hover-transition-effect.group > span:first-of-type {
   flex-shrink: 0;
-  width: 2.5rem !important;
-  min-width: 2.5rem !important;
+  width: 0.125rem !important;
+  min-width: 0.125rem !important;
   max-width: 2.5rem !important;
-  transition: background-color 0.2s ease, border-left-color 0.2s ease !important;
+  transition: width 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  will-change: width;
 }
 
-.player-hover-transition-effect.group:not(:hover) > span:first-of-type {
-  background: rgba(36, 15, 60, 0.1) !important;
-  border-left-color: rgba(167, 139, 250, 0.15) !important;
+.player-hover-transition-effect.group:hover > span:first-of-type {
+  width: 2.5rem !important;
+  min-width: 2.5rem !important;
 }
 
 .player-hover-transition-effect.group > span:first-of-type strong {
