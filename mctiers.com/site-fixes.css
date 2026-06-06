@@ -72,12 +72,20 @@ header nav > div:first-child img {
 
 .player-hover-transition-effect.group > span:first-of-type {
   flex-shrink: 0;
-  min-width: 2px;
-  transition: width 0.2s ease, opacity 0.15s ease;
+  width: 2.5rem !important;
+  min-width: 2.5rem !important;
+  max-width: 2.5rem !important;
+  transition: background-color 0.2s ease, border-left-color 0.2s ease !important;
 }
 
-.player-hover-transition-effect.group:hover > span:first-of-type {
-  width: 2.5rem !important;
+.player-hover-transition-effect.group:not(:hover) > span:first-of-type {
+  background: rgba(36, 15, 60, 0.1) !important;
+  border-left-color: rgba(167, 139, 250, 0.15) !important;
+}
+
+.player-hover-transition-effect.group > span:first-of-type strong {
+  opacity: 0 !important;
+  transition: opacity 0.15s ease !important;
 }
 
 .player-hover-transition-effect.group:hover > span:first-of-type strong {
@@ -172,8 +180,8 @@ header.max-w-\[1352px\],
 header,
 header nav {
   position: relative !important;
-  background: rgba(17, 6, 32, 0.9) !important;
-  backdrop-filter: blur(12px) !important;
+  background: rgba(11, 4, 20, 0.98) !important; /* Solid opaque theme background to eliminate heavy blur scroll lag */
+  backdrop-filter: none !important;
   border-color: #2e124f !important;
   box-shadow: 0 8px 32px 0 rgba(109, 40, 217, 0.15) !important;
   z-index: 9999 !important;
@@ -243,6 +251,10 @@ body::before, body::after {
   height: calc(100% + 400px);
   pointer-events: none;
   will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 /* Front rain layer (Faster, slightly more visible) */
