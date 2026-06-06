@@ -1,0 +1,40 @@
+[build]
+  command = "node scripts/prepare-netlify.js"
+  publish = "mctiers.com"
+
+[functions]
+  included_files = ["data/players.json", "data/skins-meta.json", "data/skins/sx.webp"]
+
+# Dynamic API Routes handled by Netlify serverless functions (Default serverless fallback)
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api"
+  status = 200
+
+[[redirects]]
+  from = "/skins/*"
+  to = "/.netlify/functions/skins"
+  status = 200
+
+# Native redirect proxy for Minecraft avatar/helm skins using Minotar
+[[redirects]]
+  from = "/avatar/:name/:size.png"
+  to = "https://minotar.net/helm/:name/:size.png"
+  status = 200
+  force = true
+
+# NOTE: If you have a public VPS/Render URL for your discord bot backend,
+# you can comment out the Netlify function redirects above and uncomment
+# the proxy rules below to route requests directly to your dynamic backend:
+#
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://your-bot-backend.com/api/:splat"
+#   status = 200
+#   force = true
+#
+# [[redirects]]
+#   from = "/skins/*"
+#   to = "https://your-bot-backend.com/skins/:splat"
+#   status = 200
+#   force = true

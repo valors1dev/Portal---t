@@ -1,0 +1,346 @@
+/* Header: logo left, nav links center, search far right */
+header nav {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+}
+
+header nav > div:first-child {
+  position: absolute !important;
+  left: 1rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 2 !important;
+}
+
+header nav .header-nav-right {
+  margin-left: 0 !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* Search bar — pinned to the right (original position) */
+header nav .header-nav-right > div.shrink-0 {
+  position: absolute !important;
+  right: 1rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 2 !important;
+}
+
+header nav > button.md\:hidden {
+  position: absolute !important;
+  right: 1rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 2 !important;
+}
+
+header nav .header-nav-right > ul {
+  flex-wrap: nowrap !important;
+  flex-shrink: 0 !important;
+  align-items: center;
+  margin: 0;
+}
+
+header nav .header-nav-right > ul li {
+  flex-shrink: 0;
+}
+
+header nav .header-nav-right > ul li span,
+header nav .header-nav-right > ul li a {
+  white-space: nowrap;
+}
+
+header nav > div:first-child img {
+  max-height: 48px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+/* Gamemode tier list: region badge on row hover */
+.player-hover-transition-effect.group {
+  overflow: visible !important;
+}
+
+.player-hover-transition-effect.group > span:first-of-type {
+  flex-shrink: 0;
+  min-width: 2px;
+  transition: width 0.2s ease, opacity 0.15s ease;
+}
+
+.player-hover-transition-effect.group:hover > span:first-of-type {
+  width: 2.5rem !important;
+}
+
+.player-hover-transition-effect.group:hover > span:first-of-type strong {
+  opacity: 1 !important;
+}
+
+/* Tier columns: don't clip expanding region labels */
+.mt-4.overflow-hidden.mb-6 {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+/* Profile modal loading skeleton */
+.max-w-lg.rounded-3xl.bg-card .animate-pulse {
+  background: rgba(148, 163, 184, 0.18) !important;
+  border-radius: 0.5rem !important;
+}
+
+.max-w-lg.rounded-3xl.bg-card section .animate-pulse.block.w-32 {
+  width: 8rem !important;
+  height: 2.75rem !important;
+}
+
+.max-w-lg.rounded-3xl.bg-card section .animate-pulse.block.w-24 {
+  width: 6rem !important;
+  height: 2rem !important;
+}
+
+.max-w-lg.rounded-3xl.bg-card {
+  min-height: 22rem;
+}
+
+/* Premium Dark Purple Theme Overrides */
+.dark, :root {
+  --background: #080311 !important;
+  --card: #110620 !important;
+  --popover: #110620 !important;
+  --border: #240f3c !important;
+  --layout-sections-color: #110620 !important;
+  --layout-item-outline: #240f3c !important;
+  --secondary: #1d0a33 !important;
+  --muted: #17072a !important;
+  --accent: #2e124f !important;
+  --muted-foreground: #a78bfa !important;
+
+  /* Purple-fied Minecraft Tier Overrides */
+  --hightier: #1b0c2a !important;
+  --lowtier: #12061e !important;
+  --hightier-hover: #2c1247 !important;
+  --lowtier-hover: #1e0930 !important;
+  
+  --tier-4: #12061e !important;
+  --tier-5: #12061e !important;
+  --tier-4-foreground: #d8b4fe !important;
+  --tier-5-foreground: #d8b4fe !important;
+  
+  --ht4: #230d3a !important;
+  --ht4-foreground: #c084fc !important;
+  --lt4: #1a082d !important;
+  --lt4-foreground: #a78bfa !important;
+  --ht5: #1a082d !important;
+  --ht5-foreground: #a78bfa !important;
+  --lt5: #130522 !important;
+  --lt5-foreground: #8b5cf6 !important;
+
+  --hightier-icon-foreground: #8b5cf6 !important;
+  --hightier-icon-foreground-hover: #a78bfa !important;
+  --lowtier-icon-foreground: #6d28d9 !important;
+  --lowtier-icon-foreground-hover: #7c3aed !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  background: radial-gradient(circle at 50% 0%, #200b3b 0%, #070310 80%) !important;
+  pointer-events: none;
+}
+
+body {
+  background: transparent !important;
+  color: #f3e8ff !important;
+}
+
+/* Enhancing header & footer glow and contrast */
+header.max-w-\[1352px\],
+header,
+header nav {
+  position: relative !important;
+  background: rgba(17, 6, 32, 0.9) !important;
+  backdrop-filter: blur(12px) !important;
+  border-color: #2e124f !important;
+  box-shadow: 0 8px 32px 0 rgba(109, 40, 217, 0.15) !important;
+  z-index: 9999 !important;
+  overflow: visible !important;
+}
+
+/* Fix Discord dropdown appearing behind page content */
+header nav li,
+header nav li > span[role="button"],
+header nav ul > li {
+  position: relative !important;
+  z-index: 10001 !important;
+}
+
+/* Discord dropdown panel - must be above everything */
+header nav ul li > span[role="button"] > div,
+header nav li span[role="button"] [class*="absolute"],
+header nav li [class*="w-\[450px\]"],
+header li div[class*="absolute"][class*="top-full"] {
+  position: absolute !important;
+  z-index: 99999 !important;
+}
+
+/* Force all links in the Discord dropdown to open in new tab behavior */
+header nav a[href^="https://discord"],
+header nav a[href^="https://discord.gg"] {
+  target: _blank;
+}
+
+.bg-popover {
+  background: #110620 !important; /* Solid purple background to prevent transparency glitch */
+  background-color: #110620 !important;
+  border-color: #2e124f !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+  opacity: 1 !important;
+  z-index: 10000 !important;
+  overflow: visible !important;
+}
+
+.bg-card {
+  background: rgba(17, 6, 32, 0.95) !important; /* Solid premium background to prevent scroll repaint lag */
+  backdrop-filter: none !important; /* Disabled heavy real-time blur over animated parallax background */
+  border-color: #240f3c !important;
+  box-shadow: 0 10px 40px 0 rgba(109, 40, 217, 0.1) !important;
+}
+
+/* Optimizing overall player row rendering & scrolling */
+.player-row-optimized {
+  content-visibility: auto;
+  contain-intrinsic-size: 96px; /* placeholder height including margin */
+  will-change: transform;
+  transform: translateZ(0); /* force GPU acceleration */
+}
+
+footer {
+  background: #070310 !important;
+  border-top: 1px solid #1c0730 !important;
+}
+
+/* Satisfying Parallax Purple Rain Animation in Background (GPU Optimized) */
+body::before, body::after {
+  content: "";
+  position: fixed;
+  top: -400px;
+  left: -240px;
+  width: calc(100% + 240px);
+  height: calc(100% + 400px);
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* Front rain layer (Faster, slightly more visible) */
+body::before {
+  z-index: -1;
+  background-image: 
+    linear-gradient(105deg, transparent 40px, rgba(167, 139, 250, 0.08) 40px, rgba(167, 139, 250, 0.08) 42px, transparent 42px),
+    linear-gradient(105deg, transparent 110px, rgba(167, 139, 250, 0.05) 110px, rgba(167, 139, 250, 0.05) 112px, transparent 112px),
+    linear-gradient(105deg, transparent 190px, rgba(167, 139, 250, 0.08) 190px, rgba(167, 139, 250, 0.08) 192px, transparent 192px);
+  background-size: 240px 400px;
+  animation: rain-fall-gpu 8s linear infinite;
+  opacity: 0.75;
+}
+
+/* Back rain layer (Slower, fainter for parallax depth) */
+body::after {
+  z-index: -2;
+  background-image: 
+    linear-gradient(105deg, transparent 20px, rgba(167, 139, 250, 0.04) 20px, rgba(167, 139, 250, 0.04) 21px, transparent 21px),
+    linear-gradient(105deg, transparent 90px, rgba(167, 139, 250, 0.03) 90px, rgba(167, 139, 250, 0.03) 91px, transparent 91px),
+    linear-gradient(105deg, transparent 150px, rgba(167, 139, 250, 0.04) 150px, rgba(167, 139, 250, 0.04) 151px, transparent 151px);
+  background-size: 180px 300px;
+  animation: rain-fall-back-gpu 12s linear infinite;
+  opacity: 0.6;
+}
+
+@keyframes rain-fall-gpu {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-240px, 400px, 0);
+  }
+}
+
+@keyframes rain-fall-back-gpu {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-180px, 300px, 0);
+  }
+}
+
+/* --- Premium Smoothness & Performance (No motion animations) --- */
+
+/* Optimize rendering and text smoothing */
+html, body {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar premium styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(17, 6, 32, 0.4) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(167, 139, 250, 0.25) !important;
+  border-radius: 100px !important;
+  border: 2px solid transparent !important;
+  background-clip: content-box !important;
+  transition: background-color 0.2s ease !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(167, 139, 250, 0.5) !important;
+  background-clip: content-box !important;
+}
+
+/* Smooth color/opacity transitions only (No visual translation/movement) */
+.player-row-optimized {
+  transition: background-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.player-row-optimized:hover {
+  background-color: rgba(167, 139, 250, 0.05) !important;
+  box-shadow: 0 4px 20px rgba(109, 40, 217, 0.08) !important;
+}
+
+/* Smooth hover effects for navigation, buttons and links (Color transitions only, no motion) */
+header nav a,
+header nav li span[role="button"],
+.bg-card a,
+.bg-card button {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease !important;
+}
+
+
+
+
+
+
+

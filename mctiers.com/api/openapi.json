@@ -1,0 +1,960 @@
+{
+  "$schema": "https://spec.openapis.org/oas/3.1/dialect/base",
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Portal Network API",
+    "description": "API Documentation for Version 2 of the public Portal Network API.\n\n**Warning:** V1 of the api (portalnetwork.local/api/*) is now deprecated and will be **removed on June 1st, 2026**. Please migrate to v2 as soon as possible, a migration guide will be provided in the following days. [Documentation for v1](https://portalnetwork.local/docs/v1) is still available for the time being.",
+    "version": "2.1.0",
+    "contact": {}
+  },
+  "servers": [{ "url": "/api/v2" }],
+  "tags": [
+    {
+      "name": "Gamemode"
+    },
+    {
+      "name": "Player"
+    },
+    {
+      "name": "Tests"
+    }
+  ],
+  "paths": {
+    "/mode/list": {
+      "get": {
+        "summary": "List All Gamemodes",
+        "description": "Gets all available gamemodes and lists them",
+        "parameters": [],
+        "tags": ["Gamemode"],
+        "operationId": "listGamemodes",
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved all gamemodes",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/Gamemode"
+                  },
+                  "examples": [
+                    {
+                      "vanilla": {
+                        "title": "Vanilla",
+                        "info_text": "The Vanilla gamemode [...]",
+                        "kit_url": "https://example.com/kit.png",
+                        "discord_url": "https://discord.gg/minecraft"
+                      },
+                      "sword": {
+                        "title": "Sword"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/mode/overall": {
+      "get": {
+        "summary": "List Overall Rankings",
+        "description": "Get the overall player rankings, sorted by the most points",
+        "tags": ["Gamemode"],
+        "operationId": "listOverallRankings",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/paginationCount"
+          },
+          {
+            "$ref": "#/components/parameters/paginationFrom"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved overall rankings",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/OverallPlayer"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/mode/{gamemode}": {
+      "get": {
+        "summary": "List Gamemode Rankings",
+        "description": "Get the rankings from a specific gamemode, sorted by tier. *Note about pagination: this route returns `count` players in each tier, so a single call can return up to `count * 5` players*",
+        "tags": ["Gamemode"],
+        "operationId": "listGamemodeRankings",
+        "parameters": [
+          {
+            "name": "gamemode",
+            "in": "path",
+            "description": "The gamemode to get rankings for. Corresponds to the key of the objects returned by `/mode/list`.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "examples": ["vanilla"]
+            }
+          },
+          {
+            "$ref": "#/components/parameters/paginationCount"
+          },
+          {
+            "$ref": "#/components/parameters/paginationFrom"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved gamemode rankings",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Response object where keys are tier numbers (1-5) and values are arrays of players in that tier",
+                  "additionalProperties": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/GamemodePlayer"
+                    }
+                  },
+                  "example": {
+                    "1": [
+                      {
+                        "uuid": "6553509f-66d3-4041-875f-164236e42e84",
+                        "name": "uku3lig",
+                        "region": "EU",
+                        "pos": 0
+                      }
+                    ],
+                    "2": [
+                      {
+                        "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                        "name": "player2",
+                        "region": "NA",
+                        "pos": 1
+                      }
+                    ],
+                    "3": []
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/InvalidGamemodeOrBadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/mode/{gamemode}/retired": {
+      "get": {
+        "summary": "List Retired Gamemode Rankings",
+        "description": "Get the retired players from a specific gamemode, sorted by tier. *Note about pagination: this route returns `count` players in each tier, so a single call can return up to `count * 5` players*",
+        "tags": ["Gamemode"],
+        "operationId": "listRetiredGamemodeRankings",
+        "parameters": [
+          {
+            "name": "gamemode",
+            "in": "path",
+            "description": "The gamemode to get retired rankings for. Corresponds to the key of the objects returned by `/mode/list`.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "examples": ["vanilla"]
+            }
+          },
+          {
+            "$ref": "#/components/parameters/paginationCount"
+          },
+          {
+            "$ref": "#/components/parameters/paginationFrom"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved retired gamemode rankings",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "description": "Response object where keys are tier numbers (1-5) and values are arrays of retired players in that tier",
+                  "additionalProperties": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/GamemodePlayer"
+                    }
+                  },
+                  "example": {
+                    "1": [
+                      {
+                        "uuid": "6553509f-66d3-4041-875f-164236e42e84",
+                        "name": "uku3lig",
+                        "region": "EU",
+                        "pos": 0
+                      }
+                    ],
+                    "2": [
+                      {
+                        "uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+                        "name": "player2",
+                        "region": "NA",
+                        "pos": 1
+                      }
+                    ],
+                    "3": []
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/InvalidGamemodeOrBadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/profile/{uuid}": {
+      "get": {
+        "summary": "Get Player Profile",
+        "description": "Retrieve the profile of a player by UUID",
+        "tags": ["Player"],
+        "operationId": "getPlayerProfile",
+        "parameters": [
+          {
+            "name": "uuid",
+            "in": "path",
+            "description": "The Minecraft player UUID to get rankings for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "$ref": "#/components/parameters/profileTests"
+          },
+          {
+            "$ref": "#/components/parameters/profileBadges"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved player profile",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Player"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "The player was not found"
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/profile/{uuid}/rankings": {
+      "get": {
+        "summary": "Get Player Rankings",
+        "description": "Retrieve the rankings of a player by UUID",
+        "tags": ["Player"],
+        "operationId": "getPlayerRankings",
+        "parameters": [
+          {
+            "name": "uuid",
+            "in": "path",
+            "description": "The Minecraft player UUID to get rankings for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "$ref": "#/components/parameters/profileTests"
+          },
+          {
+            "$ref": "#/components/parameters/profileBadges"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved player rankings",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "$ref": "#/components/schemas/Ranking"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "The player was not found"
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/profile/by-name/{name}": {
+      "get": {
+        "summary": "Search Player Profile By Name",
+        "description": "Retrieve the profile of a player by username",
+        "tags": ["Player"],
+        "operationId": "searchPlayerProfileByName",
+        "parameters": [
+          {
+            "name": "username",
+            "in": "path",
+            "description": "The Minecraft username to search for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "$ref": "#/components/parameters/profileTests"
+          },
+          {
+            "$ref": "#/components/parameters/profileBadges"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved player profile",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Player"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "The player was not found"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/profile/by-discord/{discord_id}": {
+      "get": {
+        "summary": "Search Player Profile By Discord ID",
+        "description": "Retrieve the profile of a player by Discord ID",
+        "tags": ["Player"],
+        "operationId": "searchPlayerProfileByDiscord",
+        "parameters": [
+          {
+            "name": "discord_id",
+            "in": "path",
+            "description": "The numerical Discord ID to search for",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64",
+              "minimum": 0
+            }
+          },
+          {
+            "$ref": "#/components/parameters/profileTests"
+          },
+          {
+            "$ref": "#/components/parameters/profileBadges"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved player profile",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Player"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "The player was not found"
+          },
+          "400": {
+            "$ref": "#/components/responses/BadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/tests/{uuid}": {
+      "get": {
+        "summary": "Get Tester History",
+        "description": "Retrieve a paginated list of tests performed by the given tester",
+        "tags": ["Tests"],
+        "operationId": "getTesterHistory",
+        "parameters": [
+          {
+            "name": "uuid",
+            "in": "path",
+            "description": "The Minecraft player UUID to get tests for",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "$ref": "#/components/parameters/gamemode"
+          },
+          {
+            "$ref": "#/components/parameters/paginationCount"
+          },
+          {
+            "$ref": "#/components/parameters/paginationFrom"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved test history",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Test"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/InvalidGamemodeOrBadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/tests/recent": {
+      "get": {
+        "summary": "Get Recent Tests",
+        "description": "Retrieve the most recent tests, optionally filtered by gamemode",
+        "tags": ["Tests"],
+        "operationId": "getRecentTests",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/gamemode"
+          },
+          {
+            "$ref": "#/components/parameters/testsCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved recent tests",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Test"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/InvalidGamemodeOrBadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    },
+    "/tests/recent/high": {
+      "get": {
+        "summary": "Get Recent High Tests",
+        "description": "Retrieve the most recent high tier tests (tier 1-2), optionally filtered by gamemode",
+        "tags": ["Tests"],
+        "operationId": "getRecentHighTests",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/gamemode"
+          },
+          {
+            "$ref": "#/components/parameters/testsCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully retrieved recent high tests",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Test"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/InvalidGamemodeOrBadRequest"
+          },
+          "500": {
+            "$ref": "#/components/responses/InternalError"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Gamemode": {
+        "type": "object",
+        "description": "General information about a gamemode",
+        "x-additionalPropertiesName": "slug",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Fancy display name for the gamemode",
+            "examples": ["Vanilla"]
+          },
+          "info_text": {
+            "type": ["string", "null"],
+            "description": "Markdown formatted information text about the gamemode, optional"
+          },
+          "kit_image": {
+            "type": ["string", "null"],
+            "description": "Direct link to an image showing an example kit for the gamemode, optional",
+            "examples": ["https://example.com/kit.png"]
+          },
+          "discord_url": {
+            "type": ["string", "null"],
+            "description": "Invite like to the gamemode's discord server, optional",
+            "examples": ["https://discord.gg/minecraft"]
+          }
+        }
+      },
+      "Region": {
+        "type": "string",
+        "description": "Two letter region code",
+        "examples": ["EU"],
+        "enum": ["NA", "EU", "SA", "AU", "ME", "AS", "AF", "??"]
+      },
+      "Badge": {
+        "type": "object",
+        "description": "Badge given to a player to characterize their achivements",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Name of the badge"
+          },
+          "desc": {
+            "type": "string",
+            "description": "Extended description of the badge, usually explains how to obtain it"
+          }
+        }
+      },
+      "Player": {
+        "type": "object",
+        "properties": {
+          "uuid": {
+            "type": "string",
+            "description": "UUID corresponding the the player's Minecraft account",
+            "examples": ["6553509f-66d3-4041-875f-164236e42e84"]
+          },
+          "name": {
+            "type": "string",
+            "description": "The Java username of the player's Minecraft account",
+            "examples": ["uku3lig"]
+          },
+          "region": {
+            "$ref": "#/components/schemas/Region"
+          },
+          "points": {
+            "type": "integer",
+            "format": "int32",
+            "minimum": 0,
+            "description": "Points given to a player based on their gamemode rankings"
+          },
+          "overall": {
+            "type": "integer",
+            "format": "int64",
+            "minimum": 1,
+            "description": "The player's overall ranking in terms of points"
+          },
+          "discord_id": {
+            "type": ["string", "null"],
+            "description": "The player's Discord ID, if linked"
+          },
+          "rankings": {
+            "type": "object",
+            "description": "All of the player's rankings",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Ranking"
+            }
+          },
+          "badges": {
+            "type": "array",
+            "description": "The player's badges. Empty array if the parameter is not specified.",
+            "items": {
+              "$ref": "#/components/schemas/Badge"
+            }
+          },
+          "tests": {
+            "type": "array",
+            "description": "The player's tier tests. Empty array if the parameter is not specified.",
+            "items": {
+              "$ref": "#/components/schemas/Test"
+            }
+          }
+        }
+      },
+      "OverallPlayer": {
+        "type": "object",
+        "description": "Player object used in overall rankings",
+        "properties": {
+          "uuid": {
+            "type": "string",
+            "description": "UUID corresponding the the player's Minecraft account",
+            "examples": ["6553509f-66d3-4041-875f-164236e42e84"]
+          },
+          "name": {
+            "type": "string",
+            "description": "The Java username of the player's Minecraft account",
+            "examples": ["uku3lig"]
+          },
+          "region": {
+            "$ref": "#/components/schemas/Region"
+          },
+          "points": {
+            "type": "integer",
+            "format": "int32",
+            "minimum": 0,
+            "description": "Points given to a player based on their gamemode rankings"
+          },
+          "rankings": {
+            "type": "object",
+            "description": "All of the player's rankings",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/Ranking"
+            }
+          }
+        }
+      },
+      "GamemodePlayer": {
+        "type": "object",
+        "description": "Player object used in gamemode rankings",
+        "properties": {
+          "uuid": {
+            "type": "string",
+            "description": "UUID corresponding the the player's Minecraft account",
+            "examples": ["6553509f-66d3-4041-875f-164236e42e84"]
+          },
+          "name": {
+            "type": "string",
+            "description": "The Java username of the player's Minecraft account",
+            "examples": ["uku3lig"]
+          },
+          "region": {
+            "$ref": "#/components/schemas/Region"
+          },
+          "pos": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Whether the tier is high (`0`) or low (`1`)"
+          }
+        }
+      },
+      "Ranking": {
+        "type": "object",
+        "description": "A player's ranking in a specific gamemode. `tier` and `pos` go together, eg. `tier = 3` and `pos = 1` means the player is a Low Tier 3",
+        "x-additionalPropertiesName": "gamemode_slug",
+        "properties": {
+          "tier": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "The player's tier, lower is better"
+          },
+          "pos": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "Whether the tier is high (`0`) or low (`1`)"
+          },
+          "peak_tier": {
+            "type": ["integer", "null"],
+            "minimum": 1,
+            "maximum": 5,
+            "description": "The player's highest achieved tier"
+          },
+          "peak_pos": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "maximum": 1,
+            "description": "The position associated with `peak_tier`, `null` if and only if `peak_tier` is `null`."
+          },
+          "attained": {
+            "type": "integer",
+            "format": "unix timestamp",
+            "description": "The unix timestamp (UTC, in seconds) at which the ranking was attained."
+          },
+          "retired": {
+            "type": "boolean",
+            "description": "Whether or not the player is retired. If `true`, you should display the player's peak tier, if present."
+          }
+        }
+      },
+      "Test": {
+        "type": "object",
+        "description": "A test result showing a player's ranking change",
+        "properties": {
+          "player": {
+            "$ref": "#/components/schemas/TestPlayer",
+            "description": "The player who was tested, **omitted on player profile requests**"
+          },
+          "gamemode": {
+            "type": "string",
+            "description": "The gamemode slug where the test occurred"
+          },
+          "at": {
+            "type": "integer",
+            "format": "unix timestamp",
+            "description": "The unix timestamp (UTC, in seconds) when the test occurred"
+          },
+          "result_tier": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 5,
+            "description": "The tier resulting from the test"
+          },
+          "result_pos": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "The position resulting from the test: high (0) or low (1)"
+          },
+          "prev_tier": {
+            "type": ["integer", "null"],
+            "minimum": 1,
+            "maximum": 5,
+            "description": "The player's previous tier before the test"
+          },
+          "prev_pos": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "maximum": 1,
+            "description": "The player's previous position before the test"
+          },
+          "tester": {
+            "$ref": "#/components/schemas/TestPlayer",
+            "description": "The player who conducted the test, **omitted on tester history requests**"
+          }
+        }
+      },
+      "TestPlayer": {
+        "type": "object",
+        "description": "Simplified player information used in test results",
+        "properties": {
+          "uuid": {
+            "type": "string",
+            "description": "UUID corresponding to the player's Minecraft account",
+            "examples": ["6553509f-66d3-4041-875f-164236e42e84"]
+          },
+          "name": {
+            "type": "string",
+            "description": "The Java username of the player's Minecraft account",
+            "examples": ["uku3lig"]
+          },
+          "discord_id": {
+            "type": ["string", "null"],
+            "description": "The player's Discord ID, if linked"
+          }
+        }
+      },
+      "ResponseBadRequest": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "const": "error.bad_request"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      },
+      "ResponseInvalidGamemode": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "const": "error.invalid_gamemode"
+          },
+          "message": {
+            "const": null
+          }
+        }
+      },
+      "ResponseInternalError": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "const": "error.internal"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "parameters": {
+      "paginationCount": {
+        "name": "count",
+        "in": "query",
+        "description": "Amount of results in a single response",
+        "required": true,
+        "schema": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 50
+        }
+      },
+      "paginationFrom": {
+        "name": "from",
+        "in": "query",
+        "description": "The offset index for the array",
+        "required": false,
+        "schema": {
+          "type": "integer",
+          "default": 0,
+          "minimum": 0
+        }
+      },
+      "gamemode": {
+        "name": "gamemode",
+        "in": "query",
+        "description": "The gamemode to fetch data for",
+        "required": false,
+        "schema": {
+          "type": "string"
+        }
+      },
+      "testsCount": {
+        "name": "count",
+        "in": "query",
+        "description": "Number of tests to return",
+        "required": true,
+        "schema": {
+          "type": "integer",
+          "format": "uint8",
+          "minimum": 0,
+          "maximum": 20
+        }
+      },
+      "profileTests": {
+        "name": "tests",
+        "in": "query",
+        "description": "Whether to include recent tests in the response (flag, no value needed)",
+        "required": false,
+        "schema": {},
+        "allowEmptyValue": true,
+        "x-isFlag": true
+      },
+      "profileBadges": {
+        "name": "badges",
+        "in": "query",
+        "description": "Whether to include badges in the response (flag, no value needed)",
+        "required": false,
+        "schema": {},
+        "allowEmptyValue": true,
+        "x-isFlag": true
+      }
+    },
+    "responses": {
+      "BadRequest": {
+        "description": "Invalid request parameters",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/ResponseBadRequest"
+            }
+          }
+        }
+      },
+      "InvalidGamemode": {
+        "description": "The provided gamemode is invalid",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/ResponseInvalidGamemode"
+            }
+          }
+        }
+      },
+      "InvalidGamemodeOrBadRequest": {
+        "description": "The provided gamemode is invalid OR invalid request parameters",
+        "content": {
+          "application/json": {
+            "schema": {
+              "oneOf": [
+                { "$ref": "#/components/schemas/ResponseInvalidGamemode" },
+                { "$ref": "#/components/schemas/ResponseBadRequest" }
+              ]
+            }
+          }
+        }
+      },
+      "InternalError": {
+        "description": "Internal error",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/ResponseInternalError"
+            }
+          }
+        }
+      }
+    }
+  }
+}

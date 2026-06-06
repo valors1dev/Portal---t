@@ -1,0 +1,624 @@
+{
+  "overall": [
+    {
+      "uuid": "06ec3577-3299-45fa-bbdf-613b1f86c8ab",
+      "name": "ItzRealMe",
+      "region": "NA",
+      "points": 330,
+      "rankings": {
+        "mace": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "nethop": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": null,
+          "peak_pos": null,
+          "retired": true
+        },
+        "vanilla": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "smp": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "uhc": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "axe": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        }
+      }
+    },
+    {
+      "uuid": "7e8a77ca-daf1-4224-ae1d-2df8bab1eccb",
+      "name": "coldified",
+      "region": "EU",
+      "points": 326,
+      "rankings": {
+        "pot": {
+          "tier": 1,
+          "pos": 1,
+          "peak_tier": 1,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 1,
+          "pos": 1,
+          "peak_tier": 1,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "sword": {
+          "tier": 1,
+          "pos": 1,
+          "peak_tier": 1,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "smp": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "nethop": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "axe": {
+          "tier": 1,
+          "pos": 1,
+          "peak_tier": 1,
+          "peak_pos": 1,
+          "retired": true
+        }
+      }
+    },
+    {
+      "uuid": "ebd7af32-759e-41e2-b227-9eeb8576d609",
+      "name": "Swight",
+      "region": "NA",
+      "points": 290,
+      "rankings": {
+        "axe": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "sword": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "smp": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "nethop": {
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "mace": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        }
+      }
+    },
+    {
+      "uuid": "4004ec59-536b-4f8a-b829-ee8c91f3bd86",
+      "name": "janekv",
+      "region": "EU",
+      "points": 260,
+      "rankings": {
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "nethop": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "smp": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "sword": {
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "uhc": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "axe": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        }
+      }
+    },
+    {
+      "uuid": "653bb064-799a-4bc7-9835-83cce16ddd83",
+      "name": "BlvckWlf",
+      "region": "EU",
+      "points": 226,
+      "rankings": {
+        "pot": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "smp": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "axe": {
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "nethop": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "mace": {
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        }
+      }
+    },
+    {
+      "uuid": "f4aa6afa-d90c-4dd2-97b2-ed453b8c99fe",
+      "name": "Kylaz",
+      "region": "NA",
+      "points": 226,
+      "rankings": {
+        "sword": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "smp": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "axe": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "pot": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "nethop": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        }
+      }
+    },
+    {
+      "uuid": "b86e6260-895d-443d-8f00-a808eea23294",
+      "name": "ninorc15",
+      "region": "EU",
+      "points": 211,
+      "rankings": {
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "sword": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "mace": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "pot": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "smp": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "axe": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "uhc": {
+          "tier": 1,
+          "pos": 1,
+          "peak_tier": 1,
+          "peak_pos": 1,
+          "retired": true
+        }
+      }
+    },
+    {
+      "uuid": "72b76cea-3abb-4ef2-b4b4-bd6786ec921e",
+      "name": "Lurrn",
+      "region": "EU",
+      "points": 186,
+      "rankings": {
+        "pot": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "axe": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "vanilla": {
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
+          "retired": true
+        }
+      }
+    },
+    {
+      "uuid": "746db6cd-f626-4a91-902f-43e34867d93a",
+      "name": "Arsakha",
+      "region": "AS",
+      "points": 177,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "smp": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "sword": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "axe": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      }
+    },
+    {
+      "uuid": "ed42d02b-cc94-49b5-ae07-b169b7cefb97",
+      "name": "yMiau",
+      "region": "EU",
+      "points": 177,
+      "rankings": {
+        "sword": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "smp": {
+          "tier": 1,
+          "pos": 1,
+          "peak_tier": 1,
+          "peak_pos": 1,
+          "retired": true
+        },
+        "uhc": {
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "axe": {
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
+          "retired": true
+        },
+        "nethop": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        }
+      }
+    }
+  ],
+  "backedUpAt": "2026-05-19T12:20:28.522Z"
+}

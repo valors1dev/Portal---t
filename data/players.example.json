@@ -1,0 +1,46 @@
+{
+  "overall": [
+    {
+      "uuid": "00000000-0000-0000-0000-000000000001",
+      "name": "YourPlayer",
+      "region": "EU",
+      "points": 100,
+      "rankings": {
+        "vanilla": { "tier": 2, "pos": 0, "peak_tier": 2, "peak_pos": 0, "retired": false },
+        "pot": { "tier": 3, "pos": 1, "peak_tier": 3, "peak_pos": 1, "retired": false }
+      }
+    }
+  ],
+  "modes": {
+    "pot": {
+      "2": [
+        {
+          "uuid": "00000000-0000-0000-0000-000000000001",
+          "name": "YourPlayer",
+          "region": "EU",
+          "pos": 0
+        }
+      ]
+    },
+    "vanilla": {},
+    "uhc": {},
+    "sword": {},
+    "smp": {},
+    "nethop": {},
+    "axe": {},
+    "mace": {}
+  },
+  "profiles": {
+    "YourPlayer": {
+      "uuid": "00000000-0000-0000-0000-000000000001",
+      "name": "YourPlayer",
+      "region": "EU",
+      "points": 100,
+      "overall": 1,
+      "rankings": {
+        "vanilla": { "tier": 2, "pos": 0, "peak_tier": 2, "peak_pos": 0, "retired": false },
+        "pot": { "tier": 3, "pos": 1, "peak_tier": 3, "peak_pos": 1, "retired": false }
+      }
+    }
+  }
+}
