@@ -5,6 +5,13 @@
 [functions]
   included_files = ["data/players.json", "data/skins-meta.json", "data/skins/sx.webp", "mctiers.com/api/openapi.json"]
 
+# Server-side redirect for API Docs to prevent trailing slash / redirect issues
+[[redirects]]
+  from = "/docs/v2"
+  to = "/docs/v2/"
+  status = 301
+  force = true
+
 # Dynamic API Routes handled by Netlify serverless functions (Default serverless fallback)
 [[redirects]]
   from = "/api/*"
