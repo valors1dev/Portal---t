@@ -79,6 +79,33 @@ exports.handler = async (event, context) => {
     };
   }
 
+  // Route: GET /api/openapi.json
+  if (urlPath === "/api/openapi.json") {
+    try {
+      const filePath = path.join(process.cwd(), 'mctiers.com', 'api', 'openapi.json');
+      if (fs.existsSync(filePath)) {
+        return {
+          statusCode: 200,
+          headers: { 
+            "Content-Type": "application/json; charset=utf-8", 
+            "Access-Control-Allow-Origin": "*" 
+          },
+          body: fs.readFileSync(filePath, 'utf8')
+        };
+      }
+    } catch (e) {
+      console.error("Failed to read openapi.json:", e);
+    }
+    return {
+      statusCode: 404,
+      headers: { 
+        "Content-Type": "application/json; charset=utf-8",
+        "Access-Control-Allow-Origin": "*"
+      },
+      body: JSON.stringify({ error: "openapi.json not found" })
+    };
+  }
+
   // Route: GET /api/v2/mode/overall
   if (urlPath === "/api/v2/mode/overall") {
     const players = getPlayers();

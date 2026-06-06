@@ -3,7 +3,7 @@
   publish = "mctiers.com"
 
 [functions]
-  included_files = ["data/players.json", "data/skins-meta.json", "data/skins/sx.webp"]
+  included_files = ["data/players.json", "data/skins-meta.json", "data/skins/sx.webp", "mctiers.com/api/openapi.json"]
 
 # Dynamic API Routes handled by Netlify serverless functions (Default serverless fallback)
 [[redirects]]
