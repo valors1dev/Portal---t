@@ -101,6 +101,49 @@
       }
     },
     {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 34,
+      "rankings": {
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      }
+    },
+    {
       "uuid": "00006b43-000c-4000-8000-00071f839e20",
       "name": "Flamiifiied",
       "region": "AS",
@@ -202,42 +245,6 @@
           "tier": 4,
           "pos": 1,
           "peak_tier": 4,
-          "peak_pos": 1,
-          "retired": false
-        }
-      }
-    },
-    {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 28,
-      "rankings": {
-        "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "mace": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "uhc": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
           "peak_pos": 1,
           "retired": false
         }
@@ -5518,14 +5525,14 @@
           "pos": 1
         },
         {
-          "uuid": "00006b43-000c-4000-8000-00071f839e20",
-          "name": "Flamiifiied",
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
           "region": "AS",
           "pos": 1
         },
         {
-          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-          "name": "xiots_",
+          "uuid": "00006b43-000c-4000-8000-00071f839e20",
+          "name": "Flamiifiied",
           "region": "AS",
           "pos": 1
         },
@@ -5631,6 +5638,12 @@
           "uuid": "00000000-0000-4000-8000-0cf0a00f0ed0",
           "name": "mcflamified",
           "region": "N/A",
+          "pos": 1
+        },
+        {
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
+          "region": "AS",
           "pos": 1
         },
         {
@@ -6870,14 +6883,14 @@
           "pos": 1
         },
         {
-          "uuid": "00006b43-000c-4000-8000-00071f839e20",
-          "name": "Flamiifiied",
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
           "region": "AS",
           "pos": 1
         },
         {
-          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-          "name": "xiots_",
+          "uuid": "00006b43-000c-4000-8000-00071f839e20",
+          "name": "Flamiifiied",
           "region": "AS",
           "pos": 1
         },
@@ -7699,12 +7712,147 @@
       },
       "namemc": "https://namemc.com/search?q=mcflamified"
     },
+    "xiots_": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 34,
+      "overall": 3,
+      "rankings": {
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
+    "17623ecd0b9b4183b9e2fa4764a403da": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 34,
+      "overall": 3,
+      "rankings": {
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
+    "06d8bf5be771314ebc229103311076b6": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 34,
+      "overall": 3,
+      "rankings": {
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
     "Flamiifiied": {
       "uuid": "00006b43-000c-4000-8000-00071f839e20",
       "name": "Flamiifiied",
       "region": "AS",
       "points": 30,
-      "overall": 3,
+      "overall": 4,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -7749,7 +7897,7 @@
       "name": "Flamiifiied",
       "region": "AS",
       "points": 30,
-      "overall": 3,
+      "overall": 4,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -7794,7 +7942,7 @@
       "name": "Flamiifiied",
       "region": "AS",
       "points": 30,
-      "overall": 3,
+      "overall": 4,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -7839,7 +7987,7 @@
       "name": "_ta7nmay",
       "region": "N/A",
       "points": 29,
-      "overall": 4,
+      "overall": 5,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -7905,7 +8053,7 @@
       "name": "_ta7nmay",
       "region": "N/A",
       "points": 29,
-      "overall": 4,
+      "overall": 5,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -7971,7 +8119,7 @@
       "name": "_ta7nmay",
       "region": "N/A",
       "points": 29,
-      "overall": 4,
+      "overall": 5,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -8031,120 +8179,6 @@
         }
       },
       "namemc": "https://namemc.com/search?q=_ta7nmay"
-    },
-    "xiots_": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 28,
-      "overall": 5,
-      "rankings": {
-        "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "mace": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "uhc": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
-    },
-    "17623ecd0b9b4183b9e2fa4764a403da": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 28,
-      "overall": 5,
-      "rankings": {
-        "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "mace": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "uhc": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
-    },
-    "06d8bf5be771314ebc229103311076b6": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 28,
-      "overall": 5,
-      "rankings": {
-        "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "mace": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "uhc": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
     },
     "__BlazeNYX": {
       "uuid": "00000da8-0001-4000-8000-0000e831dec4",
