@@ -208,6 +208,35 @@
       }
     },
     {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 26,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "smp": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "axe": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      }
+    },
+    {
       "uuid": "00000da8-0001-4000-8000-0000e831dec4",
       "name": "__BlazeNYX",
       "region": "AS",
@@ -440,28 +469,6 @@
           "pos": 1,
           "peak_tier": 4,
           "peak_pos": 1,
-          "retired": false
-        }
-      }
-    },
-    {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 20,
-      "rankings": {
-        "nethop": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "smp": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
           "retired": false
         }
       }
@@ -6258,15 +6265,15 @@
           "pos": 0
         },
         {
-          "uuid": "00006df9-000d-4000-8000-00074d8d8761",
-          "name": "xxye__.",
-          "region": "N/A",
-          "pos": 0
-        },
-        {
           "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
           "name": "xiots_",
           "region": "AS",
+          "pos": 0
+        },
+        {
+          "uuid": "00006df9-000d-4000-8000-00074d8d8761",
+          "name": "xxye__.",
+          "region": "N/A",
           "pos": 0
         },
         {
@@ -6712,6 +6719,12 @@
         {
           "uuid": "00006b43-000c-4000-8000-00071f839e20",
           "name": "Flamiifiied",
+          "region": "AS",
+          "pos": 1
+        },
+        {
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
           "region": "AS",
           "pos": 1
         },
@@ -8006,12 +8019,105 @@
       },
       "namemc": "https://namemc.com/search?q=_ta7nmay"
     },
+    "xiots_": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 26,
+      "overall": 5,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "smp": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "axe": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
+    "17623ecd0b9b4183b9e2fa4764a403da": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 26,
+      "overall": 5,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "smp": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "axe": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
+    "06d8bf5be771314ebc229103311076b6": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 26,
+      "overall": 5,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "smp": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "axe": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
     "__BlazeNYX": {
       "uuid": "00000da8-0001-4000-8000-0000e831dec4",
       "name": "__BlazeNYX",
       "region": "AS",
       "points": 24,
-      "overall": 5,
+      "overall": 6,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -8063,7 +8169,7 @@
       "name": "__BlazeNYX",
       "region": "AS",
       "points": 24,
-      "overall": 5,
+      "overall": 6,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -8115,7 +8221,7 @@
       "name": "__BlazeNYX",
       "region": "AS",
       "points": 24,
-      "overall": 5,
+      "overall": 6,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -8167,7 +8273,7 @@
       "name": "wspppnexus",
       "region": "N/A",
       "points": 24,
-      "overall": 6,
+      "overall": 7,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8205,7 +8311,7 @@
       "name": "wspppnexus",
       "region": "N/A",
       "points": 24,
-      "overall": 6,
+      "overall": 7,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8243,7 +8349,7 @@
       "name": "wspppnexus",
       "region": "N/A",
       "points": 24,
-      "overall": 6,
+      "overall": 7,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8281,7 +8387,7 @@
       "name": "its_zedzor",
       "region": "N/A",
       "points": 23,
-      "overall": 7,
+      "overall": 8,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -8319,7 +8425,7 @@
       "name": "its_zedzor",
       "region": "N/A",
       "points": 23,
-      "overall": 7,
+      "overall": 8,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -8357,7 +8463,7 @@
       "name": "its_zedzor",
       "region": "N/A",
       "points": 23,
-      "overall": 7,
+      "overall": 8,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -8395,7 +8501,7 @@
       "name": "xxye__.",
       "region": "N/A",
       "points": 23,
-      "overall": 8,
+      "overall": 9,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -8433,7 +8539,7 @@
       "name": "xxye__.",
       "region": "N/A",
       "points": 23,
-      "overall": 8,
+      "overall": 9,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -8471,7 +8577,7 @@
       "name": "xxye__.",
       "region": "N/A",
       "points": 23,
-      "overall": 8,
+      "overall": 9,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -8509,7 +8615,7 @@
       "name": "kziroal4",
       "region": "N/A",
       "points": 22,
-      "overall": 9,
+      "overall": 10,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -8547,7 +8653,7 @@
       "name": "kziroal4",
       "region": "N/A",
       "points": 22,
-      "overall": 9,
+      "overall": 10,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -8585,7 +8691,7 @@
       "name": "kziroal4",
       "region": "N/A",
       "points": 22,
-      "overall": 9,
+      "overall": 10,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -8623,7 +8729,7 @@
       "name": "somiop_yt",
       "region": "N/A",
       "points": 20,
-      "overall": 10,
+      "overall": 11,
       "rankings": {
         "mace": {
           "tier": 5,
@@ -8668,7 +8774,7 @@
       "name": "somiop_yt",
       "region": "N/A",
       "points": 20,
-      "overall": 10,
+      "overall": 11,
       "rankings": {
         "mace": {
           "tier": 5,
@@ -8713,7 +8819,7 @@
       "name": "somiop_yt",
       "region": "N/A",
       "points": 20,
-      "overall": 10,
+      "overall": 11,
       "rankings": {
         "mace": {
           "tier": 5,
@@ -8752,78 +8858,6 @@
         }
       },
       "namemc": "https://namemc.com/search?q=somiop_yt"
-    },
-    "xiots_": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 20,
-      "overall": 11,
-      "rankings": {
-        "nethop": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "smp": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
-    },
-    "17623ecd0b9b4183b9e2fa4764a403da": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 20,
-      "overall": 11,
-      "rankings": {
-        "nethop": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "smp": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
-    },
-    "06d8bf5be771314ebc229103311076b6": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 20,
-      "overall": 11,
-      "rankings": {
-        "nethop": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "smp": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
     },
     "ilovecpvp_72": {
       "uuid": "00002e2e-0005-4000-8000-00031114215f",
