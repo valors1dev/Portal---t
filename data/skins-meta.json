@@ -2357,5 +2357,12 @@
     "namemc": "https://namemc.com/search?q=devill.ily",
     "skinRender": "/skins/00000000-0000-4000-8000-de0000000000.webp",
     "isPlaceholder": true
+  },
+  "DeadReaperxD": {
+    "uuid": "00000000-0000-4000-8000-Dead0ea0e00D",
+    "name": "DeadReaperxD",
+    "namemc": "https://namemc.com/search?q=DeadReaperxD",
+    "skinRender": "/skins/00000000-0000-4000-8000-Dead0ea0e00D.webp",
+    "isPlaceholder": true
   }
 }
