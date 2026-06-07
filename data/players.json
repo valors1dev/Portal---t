@@ -1,9 +1,9 @@
 {
   "overall": [
     {
-      "uuid": "00000000-0000-4000-8000-000f00010000",
-      "name": "xitfyn.1_",
-      "region": "N/A",
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
       "points": 60,
       "rankings": {
         "nethop": {
@@ -6233,9 +6233,9 @@
     "nethop": {
       "1": [
         {
-          "uuid": "00000000-0000-4000-8000-000f00010000",
-          "name": "xitfyn.1_",
-          "region": "N/A",
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
+          "region": "AS",
           "pos": 0
         }
       ],
@@ -7350,10 +7350,10 @@
     }
   },
   "profiles": {
-    "xitfyn.1_": {
-      "uuid": "00000000-0000-4000-8000-000f00010000",
-      "name": "xitfyn.1_",
-      "region": "N/A",
+    "xiots_": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
       "points": 60,
       "overall": 1,
       "rankings": {
@@ -7365,12 +7365,12 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=xitfyn.1_"
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
     },
-    "00000000000040008000000f00010000": {
-      "uuid": "00000000-0000-4000-8000-000f00010000",
-      "name": "xitfyn.1_",
-      "region": "N/A",
+    "17623ecd0b9b4183b9e2fa4764a403da": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
       "points": 60,
       "overall": 1,
       "rankings": {
@@ -7382,12 +7382,12 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=xitfyn.1_"
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
     },
-    "f61f7b7d8fe039338be34d3f0af70821": {
-      "uuid": "00000000-0000-4000-8000-000f00010000",
-      "name": "xitfyn.1_",
-      "region": "N/A",
+    "06d8bf5be771314ebc229103311076b6": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
       "points": 60,
       "overall": 1,
       "rankings": {
@@ -7399,7 +7399,7 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=xitfyn.1_"
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
     },
     "sanatanisam": {
       "uuid": "00000616-0000-4000-8000-0000677a9f8d",
