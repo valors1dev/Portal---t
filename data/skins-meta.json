@@ -2364,5 +2364,12 @@
     "namemc": "https://namemc.com/search?q=DeadReaperxD",
     "skinRender": "/skins/00000000-0000-4000-8000-Dead0ea0e00D.webp",
     "isPlaceholder": true
+  },
+  "xitfyn.1_": {
+    "uuid": "00000000-0000-4000-8000-000f00010000",
+    "name": "xitfyn.1_",
+    "namemc": "https://namemc.com/search?q=xitfyn.1_",
+    "skinRender": "/skins/00000000-0000-4000-8000-000f00010000.webp",
+    "isPlaceholder": true
   }
 }
