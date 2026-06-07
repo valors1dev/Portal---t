@@ -104,7 +104,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 34,
+      "points": 40,
       "rankings": {
         "pot": {
           "tier": 3,
@@ -135,6 +135,13 @@
           "retired": false
         },
         "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "axe": {
           "tier": 3,
           "pos": 1,
           "peak_tier": 3,
@@ -6743,6 +6750,12 @@
           "pos": 1
         },
         {
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
+          "region": "AS",
+          "pos": 1
+        },
+        {
           "uuid": "00006b43-000c-4000-8000-00071f839e20",
           "name": "Flamiifiied",
           "region": "AS",
@@ -7716,7 +7729,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 34,
+      "points": 40,
       "overall": 3,
       "rankings": {
         "pot": {
@@ -7748,6 +7761,13 @@
           "retired": false
         },
         "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "axe": {
           "tier": 3,
           "pos": 1,
           "peak_tier": 3,
@@ -7761,7 +7781,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 34,
+      "points": 40,
       "overall": 3,
       "rankings": {
         "pot": {
@@ -7793,6 +7813,13 @@
           "retired": false
         },
         "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "axe": {
           "tier": 3,
           "pos": 1,
           "peak_tier": 3,
@@ -7806,7 +7833,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 34,
+      "points": 40,
       "overall": 3,
       "rankings": {
         "pot": {
@@ -7838,6 +7865,13 @@
           "retired": false
         },
         "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "axe": {
           "tier": 3,
           "pos": 1,
           "peak_tier": 3,
