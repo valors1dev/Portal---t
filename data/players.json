@@ -208,6 +208,42 @@
       }
     },
     {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 28,
+      "rankings": {
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      }
+    },
+    {
       "uuid": "00000da8-0001-4000-8000-0000e831dec4",
       "name": "__BlazeNYX",
       "region": "AS",
@@ -397,35 +433,6 @@
           "pos": 1,
           "peak_tier": 3,
           "peak_pos": 1,
-          "retired": false
-        }
-      }
-    },
-    {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 22,
-      "rankings": {
-        "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "mace": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
           "retired": false
         }
       }
@@ -4837,15 +4844,15 @@
           "pos": 0
         },
         {
-          "uuid": "00001e0e-0003-4000-8000-0001feefe9f4",
-          "name": "its_zedzor",
-          "region": "N/A",
-          "pos": 0
-        },
-        {
           "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
           "name": "xiots_",
           "region": "AS",
+          "pos": 0
+        },
+        {
+          "uuid": "00001e0e-0003-4000-8000-0001feefe9f4",
+          "name": "its_zedzor",
+          "region": "N/A",
           "pos": 0
         },
         {
@@ -5517,15 +5524,15 @@
           "pos": 1
         },
         {
-          "uuid": "000020e3-0003-4000-8000-00022f142344",
-          "name": "wspppnexus",
-          "region": "N/A",
-          "pos": 1
-        },
-        {
           "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
           "name": "xiots_",
           "region": "AS",
+          "pos": 1
+        },
+        {
+          "uuid": "000020e3-0003-4000-8000-00022f142344",
+          "name": "wspppnexus",
+          "region": "N/A",
           "pos": 1
         },
         {
@@ -6223,6 +6230,12 @@
     "uhc": {
       "3": [
         {
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
+          "region": "AS",
+          "pos": 1
+        },
+        {
           "uuid": "00006df9-000d-4000-8000-00074d8d8761",
           "name": "xxye__.",
           "region": "N/A",
@@ -6863,6 +6876,12 @@
           "pos": 1
         },
         {
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
+          "region": "AS",
+          "pos": 1
+        },
+        {
           "uuid": "00000da8-0001-4000-8000-0000e831dec4",
           "name": "__BlazeNYX",
           "region": "AS",
@@ -6878,12 +6897,6 @@
           "uuid": "00004861-0008-4000-8000-0004ce727bc5",
           "name": "kziroal4",
           "region": "N/A",
-          "pos": 1
-        },
-        {
-          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-          "name": "xiots_",
-          "region": "AS",
           "pos": 1
         },
         {
@@ -8019,12 +8032,126 @@
       },
       "namemc": "https://namemc.com/search?q=_ta7nmay"
     },
+    "xiots_": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 28,
+      "overall": 5,
+      "rankings": {
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
+    "17623ecd0b9b4183b9e2fa4764a403da": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 28,
+      "overall": 5,
+      "rankings": {
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
+    "06d8bf5be771314ebc229103311076b6": {
+      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+      "name": "xiots_",
+      "region": "AS",
+      "points": 28,
+      "overall": 5,
+      "rankings": {
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "uhc": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
+    },
     "__BlazeNYX": {
       "uuid": "00000da8-0001-4000-8000-0000e831dec4",
       "name": "__BlazeNYX",
       "region": "AS",
       "points": 24,
-      "overall": 5,
+      "overall": 6,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -8076,7 +8203,7 @@
       "name": "__BlazeNYX",
       "region": "AS",
       "points": 24,
-      "overall": 5,
+      "overall": 6,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -8128,7 +8255,7 @@
       "name": "__BlazeNYX",
       "region": "AS",
       "points": 24,
-      "overall": 5,
+      "overall": 6,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -8180,7 +8307,7 @@
       "name": "wspppnexus",
       "region": "N/A",
       "points": 24,
-      "overall": 6,
+      "overall": 7,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8218,7 +8345,7 @@
       "name": "wspppnexus",
       "region": "N/A",
       "points": 24,
-      "overall": 6,
+      "overall": 7,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8256,7 +8383,7 @@
       "name": "wspppnexus",
       "region": "N/A",
       "points": 24,
-      "overall": 6,
+      "overall": 7,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8294,7 +8421,7 @@
       "name": "its_zedzor",
       "region": "N/A",
       "points": 23,
-      "overall": 7,
+      "overall": 8,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -8332,7 +8459,7 @@
       "name": "its_zedzor",
       "region": "N/A",
       "points": 23,
-      "overall": 7,
+      "overall": 8,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -8370,7 +8497,7 @@
       "name": "its_zedzor",
       "region": "N/A",
       "points": 23,
-      "overall": 7,
+      "overall": 8,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -8408,7 +8535,7 @@
       "name": "xxye__.",
       "region": "N/A",
       "points": 23,
-      "overall": 8,
+      "overall": 9,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -8446,7 +8573,7 @@
       "name": "xxye__.",
       "region": "N/A",
       "points": 23,
-      "overall": 8,
+      "overall": 9,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -8484,7 +8611,7 @@
       "name": "xxye__.",
       "region": "N/A",
       "points": 23,
-      "overall": 8,
+      "overall": 9,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -8522,7 +8649,7 @@
       "name": "kziroal4",
       "region": "N/A",
       "points": 22,
-      "overall": 9,
+      "overall": 10,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -8560,7 +8687,7 @@
       "name": "kziroal4",
       "region": "N/A",
       "points": 22,
-      "overall": 9,
+      "overall": 10,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -8598,7 +8725,7 @@
       "name": "kziroal4",
       "region": "N/A",
       "points": 22,
-      "overall": 9,
+      "overall": 10,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -8630,99 +8757,6 @@
         }
       },
       "namemc": "https://namemc.com/search?q=kziroal4"
-    },
-    "xiots_": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 22,
-      "overall": 10,
-      "rankings": {
-        "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "mace": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
-    },
-    "17623ecd0b9b4183b9e2fa4764a403da": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 22,
-      "overall": 10,
-      "rankings": {
-        "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "mace": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
-    },
-    "06d8bf5be771314ebc229103311076b6": {
-      "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-      "name": "xiots_",
-      "region": "AS",
-      "points": 22,
-      "overall": 10,
-      "rankings": {
-        "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "mace": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
     },
     "somiop_yt": {
       "uuid": "00002bf8-0005-4000-8000-0002eb85bb8e",
