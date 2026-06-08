@@ -763,6 +763,28 @@
       }
     },
     {
+      "uuid": "00000000-0000-4000-8000-a0e0da00a000",
+      "name": "azerdagoat",
+      "region": "N/A",
+      "points": 12,
+      "rankings": {
+        "smp": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      }
+    },
+    {
       "uuid": "c29e3713-f584-44d4-972e-7f9613b05637",
       "name": "BlueIceFrost",
       "region": "AS",
@@ -1662,21 +1684,6 @@
           "pos": 0,
           "peak_tier": 4,
           "peak_pos": 0,
-          "retired": false
-        }
-      }
-    },
-    {
-      "uuid": "00000000-0000-4000-8000-a0e0da00a000",
-      "name": "azerdagoat",
-      "region": "N/A",
-      "points": 6,
-      "rankings": {
-        "smp": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
           "retired": false
         }
       }
@@ -6367,6 +6374,12 @@
           "pos": 1
         },
         {
+          "uuid": "00000000-0000-4000-8000-a0e0da00a000",
+          "name": "azerdagoat",
+          "region": "N/A",
+          "pos": 1
+        },
+        {
           "uuid": "00001d75-0003-4000-8000-0001f4cfcd37",
           "name": "bihariaayu_",
           "region": "N/A",
@@ -9840,12 +9853,84 @@
       },
       "namemc": "https://namemc.com/search?q=_silentslayerxd"
     },
+    "azerdagoat": {
+      "uuid": "00000000-0000-4000-8000-a0e0da00a000",
+      "name": "azerdagoat",
+      "region": "N/A",
+      "points": 12,
+      "overall": 21,
+      "rankings": {
+        "smp": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=azerdagoat"
+    },
+    "00000000000040008000a0e0da00a000": {
+      "uuid": "00000000-0000-4000-8000-a0e0da00a000",
+      "name": "azerdagoat",
+      "region": "N/A",
+      "points": 12,
+      "overall": 21,
+      "rankings": {
+        "smp": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=azerdagoat"
+    },
+    "6db9b66371a03aceb8cff684ad689a12": {
+      "uuid": "00000000-0000-4000-8000-a0e0da00a000",
+      "name": "azerdagoat",
+      "region": "N/A",
+      "points": 12,
+      "overall": 21,
+      "rankings": {
+        "smp": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=azerdagoat"
+    },
     "BlueIceFrost": {
       "uuid": "c29e3713-f584-44d4-972e-7f9613b05637",
       "name": "BlueIceFrost",
       "region": "AS",
       "points": 12,
-      "overall": 21,
+      "overall": 22,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -9869,7 +9954,7 @@
       "name": "BlueIceFrost",
       "region": "AS",
       "points": 12,
-      "overall": 21,
+      "overall": 22,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -9893,7 +9978,7 @@
       "name": "BlueIceFrost",
       "region": "AS",
       "points": 12,
-      "overall": 21,
+      "overall": 22,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -9917,7 +10002,7 @@
       "name": "RIP_Skk",
       "region": "AS",
       "points": 12,
-      "overall": 22,
+      "overall": 23,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -9948,7 +10033,7 @@
       "name": "RIP_Skk",
       "region": "AS",
       "points": 12,
-      "overall": 22,
+      "overall": 23,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -9979,7 +10064,7 @@
       "name": "RIP_Skk",
       "region": "AS",
       "points": 12,
-      "overall": 22,
+      "overall": 23,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10010,7 +10095,7 @@
       "name": "bihariaayu_",
       "region": "N/A",
       "points": 11,
-      "overall": 23,
+      "overall": 24,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -10048,7 +10133,7 @@
       "name": "bihariaayu_",
       "region": "N/A",
       "points": 11,
-      "overall": 23,
+      "overall": 24,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -10086,7 +10171,7 @@
       "name": "bihariaayu_",
       "region": "N/A",
       "points": 11,
-      "overall": 23,
+      "overall": 24,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -10124,7 +10209,7 @@
       "name": "slightblue_",
       "region": "N/A",
       "points": 11,
-      "overall": 24,
+      "overall": 25,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -10155,7 +10240,7 @@
       "name": "slightblue_",
       "region": "N/A",
       "points": 11,
-      "overall": 24,
+      "overall": 25,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -10186,7 +10271,7 @@
       "name": "slightblue_",
       "region": "N/A",
       "points": 11,
-      "overall": 24,
+      "overall": 25,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -10217,7 +10302,7 @@
       "name": "berox1100",
       "region": "N/A",
       "points": 10,
-      "overall": 25,
+      "overall": 26,
       "rankings": {
         "nethop": {
           "tier": 3,
@@ -10234,7 +10319,7 @@
       "name": "berox1100",
       "region": "N/A",
       "points": 10,
-      "overall": 25,
+      "overall": 26,
       "rankings": {
         "nethop": {
           "tier": 3,
@@ -10251,7 +10336,7 @@
       "name": "berox1100",
       "region": "N/A",
       "points": 10,
-      "overall": 25,
+      "overall": 26,
       "rankings": {
         "nethop": {
           "tier": 3,
@@ -10268,7 +10353,7 @@
       "name": "devill.ily",
       "region": "N/A",
       "points": 10,
-      "overall": 26,
+      "overall": 27,
       "rankings": {
         "nethop": {
           "tier": 3,
@@ -10285,7 +10370,7 @@
       "name": "devill.ily",
       "region": "N/A",
       "points": 10,
-      "overall": 26,
+      "overall": 27,
       "rankings": {
         "nethop": {
           "tier": 3,
@@ -10302,7 +10387,7 @@
       "name": "devill.ily",
       "region": "N/A",
       "points": 10,
-      "overall": 26,
+      "overall": 27,
       "rankings": {
         "nethop": {
           "tier": 3,
@@ -10319,7 +10404,7 @@
       "name": "not_gaganxd",
       "region": "N/A",
       "points": 10,
-      "overall": 27,
+      "overall": 28,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -10336,7 +10421,7 @@
       "name": "not_gaganxd",
       "region": "N/A",
       "points": 10,
-      "overall": 27,
+      "overall": 28,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -10353,7 +10438,7 @@
       "name": "not_gaganxd",
       "region": "N/A",
       "points": 10,
-      "overall": 27,
+      "overall": 28,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -10370,7 +10455,7 @@
       "name": "thebruteog",
       "region": "N/A",
       "points": 10,
-      "overall": 28,
+      "overall": 29,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -10387,7 +10472,7 @@
       "name": "thebruteog",
       "region": "N/A",
       "points": 10,
-      "overall": 28,
+      "overall": 29,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -10404,7 +10489,7 @@
       "name": "thebruteog",
       "region": "N/A",
       "points": 10,
-      "overall": 28,
+      "overall": 29,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -10421,7 +10506,7 @@
       "name": "warrior_a.k.a_dominate",
       "region": "N/A",
       "points": 10,
-      "overall": 29,
+      "overall": 30,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -10438,7 +10523,7 @@
       "name": "warrior_a.k.a_dominate",
       "region": "N/A",
       "points": 10,
-      "overall": 29,
+      "overall": 30,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -10455,7 +10540,7 @@
       "name": "warrior_a.k.a_dominate",
       "region": "N/A",
       "points": 10,
-      "overall": 29,
+      "overall": 30,
       "rankings": {
         "mace": {
           "tier": 3,
@@ -10472,7 +10557,7 @@
       "name": "_M4D4R4",
       "region": "AS",
       "points": 9,
-      "overall": 30,
+      "overall": 31,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -10510,7 +10595,7 @@
       "name": "_M4D4R4",
       "region": "AS",
       "points": 9,
-      "overall": 30,
+      "overall": 31,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -10548,7 +10633,7 @@
       "name": "_M4D4R4",
       "region": "AS",
       "points": 9,
-      "overall": 30,
+      "overall": 31,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -10586,7 +10671,7 @@
       "name": "cpvperogontop",
       "region": "N/A",
       "points": 9,
-      "overall": 31,
+      "overall": 32,
       "rankings": {
         "vanilla": {
           "tier": 3,
@@ -10610,7 +10695,7 @@
       "name": "cpvperogontop",
       "region": "N/A",
       "points": 9,
-      "overall": 31,
+      "overall": 32,
       "rankings": {
         "vanilla": {
           "tier": 3,
@@ -10634,7 +10719,7 @@
       "name": "cpvperogontop",
       "region": "N/A",
       "points": 9,
-      "overall": 31,
+      "overall": 32,
       "rankings": {
         "vanilla": {
           "tier": 3,
@@ -10658,7 +10743,7 @@
       "name": "diamastic__13",
       "region": "N/A",
       "points": 9,
-      "overall": 32,
+      "overall": 33,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10682,7 +10767,7 @@
       "name": "diamastic__13",
       "region": "N/A",
       "points": 9,
-      "overall": 32,
+      "overall": 33,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10706,7 +10791,7 @@
       "name": "diamastic__13",
       "region": "N/A",
       "points": 9,
-      "overall": 32,
+      "overall": 33,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10730,7 +10815,7 @@
       "name": "nobita_bhai_ht5",
       "region": "N/A",
       "points": 9,
-      "overall": 33,
+      "overall": 34,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10761,7 +10846,7 @@
       "name": "nobita_bhai_ht5",
       "region": "N/A",
       "points": 9,
-      "overall": 33,
+      "overall": 34,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10792,7 +10877,7 @@
       "name": "nobita_bhai_ht5",
       "region": "N/A",
       "points": 9,
-      "overall": 33,
+      "overall": 34,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10823,7 +10908,7 @@
       "name": "OGMINERZ",
       "region": "AS",
       "points": 9,
-      "overall": 34,
+      "overall": 35,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10854,7 +10939,7 @@
       "name": "OGMINERZ",
       "region": "AS",
       "points": 9,
-      "overall": 34,
+      "overall": 35,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10885,7 +10970,7 @@
       "name": "OGMINERZ",
       "region": "AS",
       "points": 9,
-      "overall": 34,
+      "overall": 35,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -10916,7 +11001,7 @@
       "name": "The_Ay4n",
       "region": "AS",
       "points": 9,
-      "overall": 35,
+      "overall": 36,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -10940,7 +11025,7 @@
       "name": "The_Ay4n",
       "region": "AS",
       "points": 9,
-      "overall": 35,
+      "overall": 36,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -10964,7 +11049,7 @@
       "name": "The_Ay4n",
       "region": "AS",
       "points": 9,
-      "overall": 35,
+      "overall": 36,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -10988,7 +11073,7 @@
       "name": "virulentverypro",
       "region": "N/A",
       "points": 9,
-      "overall": 36,
+      "overall": 37,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11012,7 +11097,7 @@
       "name": "virulentverypro",
       "region": "N/A",
       "points": 9,
-      "overall": 36,
+      "overall": 37,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11036,7 +11121,7 @@
       "name": "virulentverypro",
       "region": "N/A",
       "points": 9,
-      "overall": 36,
+      "overall": 37,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11060,7 +11145,7 @@
       "name": "9forged",
       "region": "N/A",
       "points": 8,
-      "overall": 37,
+      "overall": 38,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11084,7 +11169,7 @@
       "name": "9forged",
       "region": "N/A",
       "points": 8,
-      "overall": 37,
+      "overall": 38,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11108,7 +11193,7 @@
       "name": "9forged",
       "region": "N/A",
       "points": 8,
-      "overall": 37,
+      "overall": 38,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11132,7 +11217,7 @@
       "name": "h4ze_xd",
       "region": "N/A",
       "points": 8,
-      "overall": 38,
+      "overall": 39,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11163,7 +11248,7 @@
       "name": "h4ze_xd",
       "region": "N/A",
       "points": 8,
-      "overall": 38,
+      "overall": 39,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11194,7 +11279,7 @@
       "name": "h4ze_xd",
       "region": "N/A",
       "points": 8,
-      "overall": 38,
+      "overall": 39,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11225,7 +11310,7 @@
       "name": "itz_ishu",
       "region": "AS",
       "points": 8,
-      "overall": 39,
+      "overall": 40,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -11256,7 +11341,7 @@
       "name": "itz_ishu",
       "region": "AS",
       "points": 8,
-      "overall": 39,
+      "overall": 40,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -11287,7 +11372,7 @@
       "name": "itz_ishu",
       "region": "AS",
       "points": 8,
-      "overall": 39,
+      "overall": 40,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -11318,7 +11403,7 @@
       "name": "kartik_1100",
       "region": "N/A",
       "points": 8,
-      "overall": 40,
+      "overall": 41,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11356,7 +11441,7 @@
       "name": "kartik_1100",
       "region": "N/A",
       "points": 8,
-      "overall": 40,
+      "overall": 41,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11394,7 +11479,7 @@
       "name": "kartik_1100",
       "region": "N/A",
       "points": 8,
-      "overall": 40,
+      "overall": 41,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11432,7 +11517,7 @@
       "name": "velfire07",
       "region": "N/A",
       "points": 8,
-      "overall": 41,
+      "overall": 42,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -11456,7 +11541,7 @@
       "name": "velfire07",
       "region": "N/A",
       "points": 8,
-      "overall": 41,
+      "overall": 42,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -11480,7 +11565,7 @@
       "name": "velfire07",
       "region": "N/A",
       "points": 8,
-      "overall": 41,
+      "overall": 42,
       "rankings": {
         "sword": {
           "tier": 4,
@@ -11504,7 +11589,7 @@
       "name": "_qt08",
       "region": "N/A",
       "points": 7,
-      "overall": 42,
+      "overall": 43,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -11535,7 +11620,7 @@
       "name": "_qt08",
       "region": "N/A",
       "points": 7,
-      "overall": 42,
+      "overall": 43,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -11566,7 +11651,7 @@
       "name": "_qt08",
       "region": "N/A",
       "points": 7,
-      "overall": 42,
+      "overall": 43,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -11597,7 +11682,7 @@
       "name": "abdulrahman882",
       "region": "N/A",
       "points": 7,
-      "overall": 43,
+      "overall": 44,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11621,7 +11706,7 @@
       "name": "abdulrahman882",
       "region": "N/A",
       "points": 7,
-      "overall": 43,
+      "overall": 44,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11645,7 +11730,7 @@
       "name": "abdulrahman882",
       "region": "N/A",
       "points": 7,
-      "overall": 43,
+      "overall": 44,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11669,7 +11754,7 @@
       "name": "auraeditz_13364",
       "region": "N/A",
       "points": 7,
-      "overall": 44,
+      "overall": 45,
       "rankings": {
         "mace": {
           "tier": 5,
@@ -11714,7 +11799,7 @@
       "name": "auraeditz_13364",
       "region": "N/A",
       "points": 7,
-      "overall": 44,
+      "overall": 45,
       "rankings": {
         "mace": {
           "tier": 5,
@@ -11759,7 +11844,7 @@
       "name": "auraeditz_13364",
       "region": "N/A",
       "points": 7,
-      "overall": 44,
+      "overall": 45,
       "rankings": {
         "mace": {
           "tier": 5,
@@ -11804,7 +11889,7 @@
       "name": "aurior",
       "region": "N/A",
       "points": 7,
-      "overall": 45,
+      "overall": 46,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -11828,7 +11913,7 @@
       "name": "aurior",
       "region": "N/A",
       "points": 7,
-      "overall": 45,
+      "overall": 46,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -11852,7 +11937,7 @@
       "name": "aurior",
       "region": "N/A",
       "points": 7,
-      "overall": 45,
+      "overall": 46,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -11876,7 +11961,7 @@
       "name": "bladzdevil",
       "region": "N/A",
       "points": 7,
-      "overall": 46,
+      "overall": 47,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -11900,7 +11985,7 @@
       "name": "bladzdevil",
       "region": "N/A",
       "points": 7,
-      "overall": 46,
+      "overall": 47,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -11924,7 +12009,7 @@
       "name": "bladzdevil",
       "region": "N/A",
       "points": 7,
-      "overall": 46,
+      "overall": 47,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -11948,7 +12033,7 @@
       "name": "c1zox_",
       "region": "N/A",
       "points": 7,
-      "overall": 47,
+      "overall": 48,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -11979,7 +12064,7 @@
       "name": "c1zox_",
       "region": "N/A",
       "points": 7,
-      "overall": 47,
+      "overall": 48,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -12010,7 +12095,7 @@
       "name": "c1zox_",
       "region": "N/A",
       "points": 7,
-      "overall": 47,
+      "overall": 48,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -12041,7 +12126,7 @@
       "name": "flame_hero12_39593",
       "region": "N/A",
       "points": 7,
-      "overall": 48,
+      "overall": 49,
       "rankings": {
         "axe": {
           "tier": 5,
@@ -12079,7 +12164,7 @@
       "name": "flame_hero12_39593",
       "region": "N/A",
       "points": 7,
-      "overall": 48,
+      "overall": 49,
       "rankings": {
         "axe": {
           "tier": 5,
@@ -12117,7 +12202,7 @@
       "name": "flame_hero12_39593",
       "region": "N/A",
       "points": 7,
-      "overall": 48,
+      "overall": 49,
       "rankings": {
         "axe": {
           "tier": 5,
@@ -12155,7 +12240,7 @@
       "name": "fouvi_skyviz67",
       "region": "N/A",
       "points": 7,
-      "overall": 49,
+      "overall": 50,
       "rankings": {
         "axe": {
           "tier": 5,
@@ -12186,7 +12271,7 @@
       "name": "fouvi_skyviz67",
       "region": "N/A",
       "points": 7,
-      "overall": 49,
+      "overall": 50,
       "rankings": {
         "axe": {
           "tier": 5,
@@ -12217,7 +12302,7 @@
       "name": "fouvi_skyviz67",
       "region": "N/A",
       "points": 7,
-      "overall": 49,
+      "overall": 50,
       "rankings": {
         "axe": {
           "tier": 5,
@@ -12248,7 +12333,7 @@
       "name": "kakashi0634",
       "region": "N/A",
       "points": 7,
-      "overall": 50,
+      "overall": 51,
       "rankings": {
         "nethop": {
           "tier": 5,
@@ -12279,7 +12364,7 @@
       "name": "kakashi0634",
       "region": "N/A",
       "points": 7,
-      "overall": 50,
+      "overall": 51,
       "rankings": {
         "nethop": {
           "tier": 5,
@@ -12310,7 +12395,7 @@
       "name": "kakashi0634",
       "region": "N/A",
       "points": 7,
-      "overall": 50,
+      "overall": 51,
       "rankings": {
         "nethop": {
           "tier": 5,
@@ -12341,7 +12426,7 @@
       "name": "samrxt.xyz",
       "region": "N/A",
       "points": 7,
-      "overall": 51,
+      "overall": 52,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -12365,7 +12450,7 @@
       "name": "samrxt.xyz",
       "region": "N/A",
       "points": 7,
-      "overall": 51,
+      "overall": 52,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -12389,7 +12474,7 @@
       "name": "samrxt.xyz",
       "region": "N/A",
       "points": 7,
-      "overall": 51,
+      "overall": 52,
       "rankings": {
         "mace": {
           "tier": 4,
@@ -12413,7 +12498,7 @@
       "name": "VoltxD_",
       "region": "AS",
       "points": 7,
-      "overall": 52,
+      "overall": 53,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -12444,7 +12529,7 @@
       "name": "VoltxD_",
       "region": "AS",
       "points": 7,
-      "overall": 52,
+      "overall": 53,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -12475,7 +12560,7 @@
       "name": "VoltxD_",
       "region": "AS",
       "points": 7,
-      "overall": 52,
+      "overall": 53,
       "rankings": {
         "nethop": {
           "tier": 4,
@@ -12506,7 +12591,7 @@
       "name": "[1.21+] PORTAL TIERS",
       "region": "N/A",
       "points": 6,
-      "overall": 53,
+      "overall": 54,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -12530,7 +12615,7 @@
       "name": "[1.21+] PORTAL TIERS",
       "region": "N/A",
       "points": 6,
-      "overall": 53,
+      "overall": 54,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -12554,7 +12639,7 @@
       "name": "[1.21+] PORTAL TIERS",
       "region": "N/A",
       "points": 6,
-      "overall": 53,
+      "overall": 54,
       "rankings": {
         "pot": {
           "tier": 4,
@@ -12578,7 +12663,7 @@
       "name": "2017caped",
       "region": "N/A",
       "points": 6,
-      "overall": 54,
+      "overall": 55,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -12595,7 +12680,7 @@
       "name": "2017caped",
       "region": "N/A",
       "points": 6,
-      "overall": 54,
+      "overall": 55,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -12612,7 +12697,7 @@
       "name": "2017caped",
       "region": "N/A",
       "points": 6,
-      "overall": 54,
+      "overall": 55,
       "rankings": {
         "sword": {
           "tier": 3,
@@ -12629,7 +12714,7 @@
       "name": "6ccww",
       "region": "N/A",
       "points": 6,
-      "overall": 55,
+      "overall": 56,
       "rankings": {
         "vanilla": {
           "tier": 3,
@@ -12646,7 +12731,7 @@
       "name": "6ccww",
       "region": "N/A",
       "points": 6,
-      "overall": 55,
+      "overall": 56,
       "rankings": {
         "vanilla": {
           "tier": 3,
@@ -12663,7 +12748,7 @@
       "name": "6ccww",
       "region": "N/A",
       "points": 6,
-      "overall": 55,
+      "overall": 56,
       "rankings": {
         "vanilla": {
           "tier": 3,
@@ -12680,7 +12765,7 @@
       "name": "Aizer_xD",
       "region": "AS",
       "points": 6,
-      "overall": 56,
+      "overall": 57,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -12711,7 +12796,7 @@
       "name": "Aizer_xD",
       "region": "AS",
       "points": 6,
-      "overall": 56,
+      "overall": 57,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -12742,7 +12827,7 @@
       "name": "Aizer_xD",
       "region": "AS",
       "points": 6,
-      "overall": 56,
+      "overall": 57,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -12767,57 +12852,6 @@
         }
       },
       "namemc": "https://namemc.com/search?q=Aizer_xD"
-    },
-    "azerdagoat": {
-      "uuid": "00000000-0000-4000-8000-a0e0da00a000",
-      "name": "azerdagoat",
-      "region": "N/A",
-      "points": 6,
-      "overall": 57,
-      "rankings": {
-        "smp": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/search?q=azerdagoat"
-    },
-    "00000000000040008000a0e0da00a000": {
-      "uuid": "00000000-0000-4000-8000-a0e0da00a000",
-      "name": "azerdagoat",
-      "region": "N/A",
-      "points": 6,
-      "overall": 57,
-      "rankings": {
-        "smp": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/search?q=azerdagoat"
-    },
-    "6db9b66371a03aceb8cff684ad689a12": {
-      "uuid": "00000000-0000-4000-8000-a0e0da00a000",
-      "name": "azerdagoat",
-      "region": "N/A",
-      "points": 6,
-      "overall": 57,
-      "rankings": {
-        "smp": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/search?q=azerdagoat"
     },
     "callmeryu._.": {
       "uuid": "000042b6-0008-4000-8000-00046e240f7e",
