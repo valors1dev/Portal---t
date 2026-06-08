@@ -2406,5 +2406,12 @@
     "namemc": "https://namemc.com/search?q=NobitaPlayzz",
     "skinRender": "/skins/00000000-0000-4000-8000-00b00a00a000.webp",
     "isPlaceholder": true
+  },
+  "iamyiu": {
+    "uuid": "00000000-0000-4000-8000-0a0000000000",
+    "name": "iamyiu",
+    "namemc": "https://namemc.com/search?q=iamyiu",
+    "skinRender": "/skins/00000000-0000-4000-8000-0a0000000000.webp",
+    "isPlaceholder": true
   }
 }
