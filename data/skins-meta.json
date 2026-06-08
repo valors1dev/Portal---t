@@ -2392,5 +2392,12 @@
     "namemc": "https://namemc.com/search?q=V1cenz0_",
     "skinRender": "/skins/00000000-0000-4000-8000-01ce00000000.webp",
     "isPlaceholder": true
+  },
+  "Kaif8world": {
+    "uuid": "00000000-0000-4000-8000-0a0f80000d00",
+    "name": "Kaif8world",
+    "namemc": "https://namemc.com/search?q=Kaif8world",
+    "skinRender": "/skins/00000000-0000-4000-8000-0a0f80000d00.webp",
+    "isPlaceholder": true
   }
 }
