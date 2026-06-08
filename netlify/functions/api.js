@@ -1,20 +1,93 @@
 const fs = require('fs');
 const path = require('path');
 
-let playersCache = null;
+const https = require('https');
 
-function getPlayers() {
-  if (playersCache) return playersCache;
+let playersCache = null;
+let lastFetchTime = 0;
+const CACHE_TTL_MS = 60 * 1000; // 60 seconds
+
+function fetchFromGitHub() {
+  return new Promise((resolve, reject) => {
+    const options = {
+      hostname: 'raw.githubusercontent.com',
+      port: 443,
+      path: '/valors1dev/Portal---t/main/data/players.json',
+      method: 'GET',
+      headers: {
+        'User-Agent': 'PortalTiers-NetlifyFunction/1.0'
+      }
+    };
+
+    const token = process.env.GITHUB_TOKEN || process.env.GITHUB_PAT;
+    if (token) {
+      options.hostname = 'api.github.com';
+      options.path = '/repos/valors1dev/Portal---t/contents/data/players.json';
+      options.headers['Authorization'] = `token ${token}`;
+      options.headers['Accept'] = 'application/vnd.github.v3.raw';
+    }
+
+    const req = https.get(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        if (res.statusCode !== 200) {
+          return reject(new Error(`Failed to fetch from GitHub: ${res.statusCode} ${data.slice(0, 100)}`));
+        }
+        try {
+          let parsed;
+          if (token && !options.headers['Accept']) {
+            const json = JSON.parse(data);
+            const content = Buffer.from(json.content, 'base64').toString('utf8');
+            parsed = JSON.parse(content);
+          } else {
+            parsed = JSON.parse(data);
+          }
+          resolve(parsed);
+        } catch (e) {
+          reject(e);
+        }
+      });
+    });
+
+    req.on('error', (e) => reject(e));
+    req.setTimeout(5000, () => {
+      req.destroy();
+      reject(new Error('GitHub request timeout'));
+    });
+  });
+}
+
+async function getPlayers() {
+  const now = Date.now();
+  if (playersCache && (now - lastFetchTime < CACHE_TTL_MS)) {
+    return playersCache;
+  }
+
   try {
-    const filePath = path.join(process.cwd(), 'data', 'players.json');
-    if (fs.existsSync(filePath)) {
-      playersCache = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    console.log('[Netlify Function] Fetching latest players.json from GitHub...');
+    const data = await fetchFromGitHub();
+    playersCache = data;
+    lastFetchTime = now;
+    return playersCache;
+  } catch (e) {
+    console.error("Failed to fetch players.json from GitHub:", e.message);
+    if (playersCache) {
+      console.log("Serving cached players data as fallback.");
       return playersCache;
     }
-  } catch (e) {
-    console.error("Failed to read players.json:", e);
+    try {
+      const filePath = path.join(process.cwd(), 'data', 'players.json');
+      if (fs.existsSync(filePath)) {
+        playersCache = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        lastFetchTime = now - CACHE_TTL_MS + 5000;
+        return playersCache;
+      }
+    } catch (localErr) {
+      console.error("Failed to read local fallback players.json:", localErr);
+    }
   }
-  return { overall: [], modes: {}, profiles: {} };
+  return playersCache || { overall: [], modes: {}, profiles: {} };
 }
 
 function formatModProfile(profile) {
@@ -108,7 +181,7 @@ exports.handler = async (event, context) => {
 
   // Route: GET /api/v2/mode/overall
   if (urlPath === "/api/v2/mode/overall") {
-    const players = getPlayers();
+    const players = await getPlayers();
     const publicOverall = (players.overall || []).filter(p => p.points > 0);
     const from = Number(params.from) || 0;
     const count = Number(params.count) || publicOverall.length;
@@ -128,7 +201,7 @@ exports.handler = async (event, context) => {
   if (urlPath.startsWith("/api/profile/")) {
     const key = decodeURIComponent(urlPath.replace("/api/profile/", ""));
     const lookup = key.replace(/-/g, "");
-    const players = getPlayers();
+    const players = await getPlayers();
     const profile =
       players.profiles?.[key] ||
       players.profiles?.[lookup] ||
@@ -161,7 +234,7 @@ exports.handler = async (event, context) => {
       };
     }
     const lookup = identifier.replace(/-/g, "");
-    const players = getPlayers();
+    const players = await getPlayers();
     const profile =
       players.profiles?.[identifier] ||
       players.profiles?.[lookup] ||
@@ -192,7 +265,7 @@ exports.handler = async (event, context) => {
       key = nameQuery;
     }
     const lookup = key.replace(/-/g, "");
-    const players = getPlayers();
+    const players = await getPlayers();
     const profile =
       players.profiles?.[key] ||
       players.profiles?.[lookup] ||
@@ -226,7 +299,7 @@ exports.handler = async (event, context) => {
   }
 
   // Route: GET /api/v2/mode/:mode
-  const modeMatch = urlPath.match(/^\/api\/v2\/mode\/([^/]+)$/);
+    const modeMatch = urlPath.match(/^\/api\/v2\/mode\/([^/]+)$/);
   if (modeMatch) {
     const mode = modeMatch[1];
     if (mode === "list") {
@@ -250,7 +323,7 @@ exports.handler = async (event, context) => {
       };
     }
     
-    const players = getPlayers();
+    const players = await getPlayers();
     const modeData = players.modes?.[mode] ?? {};
     const from = Number(params.from) || 0;
     const count = Number(params.count) || 10;
