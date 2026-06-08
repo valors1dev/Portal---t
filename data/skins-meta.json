@@ -2399,5 +2399,12 @@
     "namemc": "https://namemc.com/search?q=Kaif8world",
     "skinRender": "/skins/00000000-0000-4000-8000-0a0f80000d00.webp",
     "isPlaceholder": true
+  },
+  "NobitaPlayzz": {
+    "uuid": "00000000-0000-4000-8000-00b00a00a000",
+    "name": "NobitaPlayzz",
+    "namemc": "https://namemc.com/search?q=NobitaPlayzz",
+    "skinRender": "/skins/00000000-0000-4000-8000-00b00a00a000.webp",
+    "isPlaceholder": true
   }
 }
