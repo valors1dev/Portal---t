@@ -2371,5 +2371,12 @@
     "namemc": "https://namemc.com/search?q=xitfyn.1_",
     "skinRender": "/skins/00000000-0000-4000-8000-000f00010000.webp",
     "isPlaceholder": true
+  },
+  "azerdagoat": {
+    "uuid": "00000000-0000-4000-8000-a0e0da00a000",
+    "name": "azerdagoat",
+    "namemc": "https://namemc.com/search?q=azerdagoat",
+    "skinRender": "/skins/00000000-0000-4000-8000-a0e0da00a000.webp",
+    "isPlaceholder": true
   }
 }
