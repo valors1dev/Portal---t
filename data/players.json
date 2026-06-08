@@ -1,9 +1,9 @@
 {
   "overall": [
     {
-      "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-      "name": "sanatanisam",
-      "region": "N/A",
+      "uuid": "00000000-0000-4000-8000-0000a0a00000",
+      "name": "ItsSamanyu",
+      "region": "AS",
       "points": 44,
       "rankings": {
         "vanilla": {
@@ -4874,9 +4874,9 @@
     "sword": {
       "3": [
         {
-          "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-          "name": "sanatanisam",
-          "region": "N/A",
+          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "name": "ItsSamanyu",
+          "region": "AS",
           "pos": 0
         },
         {
@@ -5542,9 +5542,9 @@
     "pot": {
       "3": [
         {
-          "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-          "name": "sanatanisam",
-          "region": "N/A",
+          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "name": "ItsSamanyu",
+          "region": "AS",
           "pos": 1
         },
         {
@@ -5830,9 +5830,9 @@
       ],
       "5": [
         {
-          "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-          "name": "sanatanisam",
-          "region": "N/A",
+          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "name": "ItsSamanyu",
+          "region": "AS",
           "pos": 0
         },
         {
@@ -6320,9 +6320,9 @@
     "nethop": {
       "3": [
         {
-          "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-          "name": "sanatanisam",
-          "region": "N/A",
+          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "name": "ItsSamanyu",
+          "region": "AS",
           "pos": 0
         },
         {
@@ -6772,9 +6772,9 @@
     "axe": {
       "3": [
         {
-          "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-          "name": "sanatanisam",
-          "region": "N/A",
+          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "name": "ItsSamanyu",
+          "region": "AS",
           "pos": 1
         },
         {
@@ -6900,9 +6900,9 @@
     "mace": {
       "3": [
         {
-          "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-          "name": "sanatanisam",
-          "region": "N/A",
+          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "name": "ItsSamanyu",
+          "region": "AS",
           "pos": 0
         },
         {
@@ -7447,10 +7447,10 @@
     }
   },
   "profiles": {
-    "sanatanisam": {
-      "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-      "name": "sanatanisam",
-      "region": "N/A",
+    "ItsSamanyu": {
+      "uuid": "00000000-0000-4000-8000-0000a0a00000",
+      "name": "ItsSamanyu",
+      "region": "AS",
       "points": 44,
       "overall": 1,
       "rankings": {
@@ -7497,12 +7497,12 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=sanatanisam"
+      "namemc": "https://namemc.com/search?q=ItsSamanyu"
     },
-    "000006160000400080000000677a9f8d": {
-      "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-      "name": "sanatanisam",
-      "region": "N/A",
+    "000000000000400080000000a0a00000": {
+      "uuid": "00000000-0000-4000-8000-0000a0a00000",
+      "name": "ItsSamanyu",
+      "region": "AS",
       "points": 44,
       "overall": 1,
       "rankings": {
@@ -7549,12 +7549,12 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=sanatanisam"
+      "namemc": "https://namemc.com/search?q=ItsSamanyu"
     },
-    "a56791f7a6a535b39dfa5f3ec34dc158": {
-      "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-      "name": "sanatanisam",
-      "region": "N/A",
+    "d686aa5e62e935d8a22cedf25607b102": {
+      "uuid": "00000000-0000-4000-8000-0000a0a00000",
+      "name": "ItsSamanyu",
+      "region": "AS",
       "points": 44,
       "overall": 1,
       "rankings": {
@@ -7601,7 +7601,7 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=sanatanisam"
+      "namemc": "https://namemc.com/search?q=ItsSamanyu"
     },
     "mcflamified": {
       "uuid": "00000000-0000-4000-8000-0cf0a00f0ed0",

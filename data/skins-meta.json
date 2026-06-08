@@ -2378,5 +2378,12 @@
     "namemc": "https://namemc.com/search?q=azerdagoat",
     "skinRender": "/skins/00000000-0000-4000-8000-a0e0da00a000.webp",
     "isPlaceholder": true
+  },
+  "ItsSamanyu": {
+    "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
+    "name": "ItsSamanyu",
+    "namemc": "https://namemc.com/profile/fa943723-a876-4569-9933-7d3fa643fb58",
+    "skinRender": "https://render.crafty.gg/3d/bust/fa943723-a876-4569-9933-7d3fa643fb58",
+    "isPlaceholder": false
   }
 }
