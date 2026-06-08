@@ -2413,5 +2413,12 @@
     "namemc": "https://namemc.com/search?q=iamyiu",
     "skinRender": "/skins/00000000-0000-4000-8000-0a0000000000.webp",
     "isPlaceholder": true
+  },
+  "shauryaYT1": {
+    "uuid": "00000000-0000-4000-8000-00a000a00100",
+    "name": "shauryaYT1",
+    "namemc": "https://namemc.com/search?q=shauryaYT1",
+    "skinRender": "/skins/00000000-0000-4000-8000-00a000a00100.webp",
+    "isPlaceholder": true
   }
 }
