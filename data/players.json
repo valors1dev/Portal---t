@@ -1,7 +1,7 @@
 {
   "overall": [
     {
-      "uuid": "00000000-0000-4000-8000-0000a0a00000",
+      "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
       "name": "ItsSamanyu",
       "region": "AS",
       "points": 44,
@@ -4874,7 +4874,7 @@
     "sword": {
       "3": [
         {
-          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
           "name": "ItsSamanyu",
           "region": "AS",
           "pos": 0
@@ -5542,7 +5542,7 @@
     "pot": {
       "3": [
         {
-          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
           "name": "ItsSamanyu",
           "region": "AS",
           "pos": 1
@@ -5830,7 +5830,7 @@
       ],
       "5": [
         {
-          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
           "name": "ItsSamanyu",
           "region": "AS",
           "pos": 0
@@ -6320,7 +6320,7 @@
     "nethop": {
       "3": [
         {
-          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
           "name": "ItsSamanyu",
           "region": "AS",
           "pos": 0
@@ -6772,7 +6772,7 @@
     "axe": {
       "3": [
         {
-          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
           "name": "ItsSamanyu",
           "region": "AS",
           "pos": 1
@@ -6900,7 +6900,7 @@
     "mace": {
       "3": [
         {
-          "uuid": "00000000-0000-4000-8000-0000a0a00000",
+          "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
           "name": "ItsSamanyu",
           "region": "AS",
           "pos": 0
@@ -7448,7 +7448,7 @@
   },
   "profiles": {
     "ItsSamanyu": {
-      "uuid": "00000000-0000-4000-8000-0000a0a00000",
+      "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
       "name": "ItsSamanyu",
       "region": "AS",
       "points": 44,
@@ -7497,10 +7497,10 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=ItsSamanyu"
+      "namemc": "https://namemc.com/profile/fa943723-a876-4569-9933-7d3fa643fb58"
     },
-    "000000000000400080000000a0a00000": {
-      "uuid": "00000000-0000-4000-8000-0000a0a00000",
+    "fa943723a876456999337d3fa643fb58": {
+      "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
       "name": "ItsSamanyu",
       "region": "AS",
       "points": 44,
@@ -7549,10 +7549,10 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=ItsSamanyu"
+      "namemc": "https://namemc.com/profile/fa943723-a876-4569-9933-7d3fa643fb58"
     },
     "d686aa5e62e935d8a22cedf25607b102": {
-      "uuid": "00000000-0000-4000-8000-0000a0a00000",
+      "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
       "name": "ItsSamanyu",
       "region": "AS",
       "points": 44,
@@ -7601,7 +7601,7 @@
           "retired": false
         }
       },
-      "namemc": "https://namemc.com/search?q=ItsSamanyu"
+      "namemc": "https://namemc.com/profile/fa943723-a876-4569-9933-7d3fa643fb58"
     },
     "mcflamified": {
       "uuid": "00000000-0000-4000-8000-0cf0a00f0ed0",
