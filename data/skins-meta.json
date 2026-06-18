@@ -2434,5 +2434,26 @@
     "namemc": "https://namemc.com/search?q=PrimeRyuu_",
     "skinRender": "/skins/00000000-0000-4000-8000-0000e0000000.webp",
     "isPlaceholder": true
+  },
+  "Dummy_Verified_Player": {
+    "uuid": "00000000-0000-4000-8000-D000000e00f0",
+    "name": "Dummy_Verified_Player",
+    "namemc": "https://namemc.com/search?q=Dummy_Verified_Player",
+    "skinRender": "/skins/00000000-0000-4000-8000-D000000e00f0.webp",
+    "isPlaceholder": true
+  },
+  "Dummy_Ranked_Player": {
+    "uuid": "00000000-0000-4000-8000-D000000a00ed",
+    "name": "Dummy_Ranked_Player",
+    "namemc": "https://namemc.com/search?q=Dummy_Ranked_Player",
+    "skinRender": "/skins/00000000-0000-4000-8000-D000000a00ed.webp",
+    "isPlaceholder": true
+  },
+  "VEER3686": {
+    "uuid": "00000000-0000-4000-8000-0EE036860000",
+    "name": "VEER3686",
+    "namemc": "https://namemc.com/search?q=VEER3686",
+    "skinRender": "/skins/00000000-0000-4000-8000-0EE036860000.webp",
+    "isPlaceholder": true
   }
 }
