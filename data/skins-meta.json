@@ -2525,5 +2525,54 @@
     "namemc": "https://namemc.com/search?q=AthangTheDino",
     "skinRender": "/skins/00000000-0000-4000-8000-A00a0000eD00.webp",
     "isPlaceholder": true
+  },
+  "ItzRealJishan": {
+    "uuid": "00000000-0000-4000-8000-0000ea00000a",
+    "name": "ItzRealJishan",
+    "namemc": "https://namemc.com/search?q=ItzRealJishan",
+    "skinRender": "/skins/00000000-0000-4000-8000-0000ea00000a.webp",
+    "isPlaceholder": true
+  },
+  "voidslayer11": {
+    "uuid": "00000000-0000-4000-8000-000d00a0e011",
+    "name": "voidslayer11",
+    "namemc": "https://namemc.com/search?q=voidslayer11",
+    "skinRender": "/skins/00000000-0000-4000-8000-000d00a0e011.webp",
+    "isPlaceholder": true
+  },
+  "voidhymn": {
+    "uuid": "00000000-0000-4000-8000-000d00000000",
+    "name": "voidhymn",
+    "namemc": "https://namemc.com/search?q=voidhymn",
+    "skinRender": "/skins/00000000-0000-4000-8000-000d00000000.webp",
+    "isPlaceholder": true
+  },
+  "SarthoToo": {
+    "uuid": "00000000-0000-4000-8000-0a0000000000",
+    "name": "SarthoToo",
+    "namemc": "https://namemc.com/search?q=SarthoToo",
+    "skinRender": "/skins/00000000-0000-4000-8000-0a0000000000.webp",
+    "isPlaceholder": true
+  },
+  "vr_9": {
+    "uuid": "00000000-0000-4000-8000-000900000000",
+    "name": "vr_9",
+    "namemc": "https://namemc.com/search?q=vr_9",
+    "skinRender": "/skins/00000000-0000-4000-8000-000900000000.webp",
+    "isPlaceholder": true
+  },
+  "_1NV1NC1BLE_": {
+    "uuid": "00000000-0000-4000-8000-010010C1B0E0",
+    "name": "_1NV1NC1BLE_",
+    "namemc": "https://namemc.com/search?q=_1NV1NC1BLE_",
+    "skinRender": "/skins/00000000-0000-4000-8000-010010C1B0E0.webp",
+    "isPlaceholder": true
+  },
+  "_TheMirage": {
+    "uuid": "00000000-0000-4000-8000-000e000a0e00",
+    "name": "_TheMirage",
+    "namemc": "https://namemc.com/search?q=_TheMirage",
+    "skinRender": "/skins/00000000-0000-4000-8000-000e000a0e00.webp",
+    "isPlaceholder": true
   }
 }
