@@ -2504,5 +2504,12 @@
     "namemc": "https://namemc.com/search?q=INGxMoNsTER",
     "skinRender": "/skins/00000000-0000-4000-8000-000000000E00.webp",
     "isPlaceholder": true
+  },
+  "MineXBlazee": {
+    "uuid": "00000000-0000-4000-8000-000e0B0a0ee0",
+    "name": "MineXBlazee",
+    "namemc": "https://namemc.com/search?q=MineXBlazee",
+    "skinRender": "/skins/00000000-0000-4000-8000-000e0B0a0ee0.webp",
+    "isPlaceholder": true
   }
 }
