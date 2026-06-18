@@ -2518,5 +2518,12 @@
     "namemc": "https://namemc.com/search?q=shaadow_playzz",
     "skinRender": "/skins/00000000-0000-4000-8000-00aad00000a0.webp",
     "isPlaceholder": true
+  },
+  "AthangTheDino": {
+    "uuid": "00000000-0000-4000-8000-A00a0000eD00",
+    "name": "AthangTheDino",
+    "namemc": "https://namemc.com/search?q=AthangTheDino",
+    "skinRender": "/skins/00000000-0000-4000-8000-A00a0000eD00.webp",
+    "isPlaceholder": true
   }
 }
