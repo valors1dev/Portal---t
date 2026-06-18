@@ -12,7 +12,7 @@ function fetchFromGitHub() {
     const options = {
       hostname: 'raw.githubusercontent.com',
       port: 443,
-      path: '/valors1dev/Portal---t/main/data/players.json',
+      path: `/valors1dev/Portal---t/main/data/players.json?t=${Date.now()}`,
       method: 'GET',
       headers: {
         'User-Agent': 'PortalTiers-NetlifyFunction/1.0'
