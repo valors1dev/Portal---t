@@ -4,7 +4,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 94,
+      "points": 70,
       "rankings": {
         "pot": {
           "tier": 3,
@@ -42,10 +42,10 @@
           "retired": false
         },
         "axe": {
-          "tier": 2,
-          "pos": 0,
-          "peak_tier": 2,
-          "peak_pos": 0,
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
           "retired": false
         },
         "nethop": {
@@ -53,42 +53,6 @@
           "pos": 1,
           "peak_tier": 2,
           "peak_pos": 1,
-          "retired": false
-        }
-      }
-    },
-    {
-      "uuid": "00000000-0000-4000-8000-000000a00009",
-      "name": "simonkarki_96",
-      "region": "N/A",
-      "points": 50,
-      "rankings": {
-        "nethop": {
-          "tier": 2,
-          "pos": 1,
-          "peak_tier": 2,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "vanilla": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "pot": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
           "retired": false
         }
       }
@@ -189,6 +153,42 @@
           "pos": 1,
           "peak_tier": 3,
           "peak_pos": 1,
+          "retired": false
+        }
+      }
+    },
+    {
+      "uuid": "00000000-0000-4000-8000-000000a00009",
+      "name": "simonkarki_96",
+      "region": "N/A",
+      "points": 40,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
           "retired": false
         }
       }
@@ -5332,14 +5332,14 @@
       ],
       "3": [
         {
-          "uuid": "00000000-0000-4000-8000-000000a00009",
-          "name": "simonkarki_96",
+          "uuid": "00000616-0000-4000-8000-0000677a9f8d",
+          "name": "sanatanisam",
           "region": "N/A",
           "pos": 0
         },
         {
-          "uuid": "00000616-0000-4000-8000-0000677a9f8d",
-          "name": "sanatanisam",
+          "uuid": "00000000-0000-4000-8000-000000a00009",
+          "name": "simonkarki_96",
           "region": "N/A",
           "pos": 0
         },
@@ -6934,12 +6934,6 @@
           "name": "xiots_",
           "region": "AS",
           "pos": 1
-        },
-        {
-          "uuid": "00000000-0000-4000-8000-000000a00009",
-          "name": "simonkarki_96",
-          "region": "N/A",
-          "pos": 1
         }
       ],
       "3": [
@@ -6952,6 +6946,12 @@
         {
           "uuid": "00000000-0000-4000-8000-0cf0a00f0ed0",
           "name": "mcflamified",
+          "region": "N/A",
+          "pos": 0
+        },
+        {
+          "uuid": "00000000-0000-4000-8000-000000a00009",
+          "name": "simonkarki_96",
           "region": "N/A",
           "pos": 0
         },
@@ -7472,15 +7472,13 @@
       ]
     },
     "axe": {
-      "2": [
+      "3": [
         {
           "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
           "name": "xiots_",
           "region": "AS",
-          "pos": 0
-        }
-      ],
-      "3": [
+          "pos": 1
+        },
         {
           "uuid": "00000616-0000-4000-8000-0000677a9f8d",
           "name": "sanatanisam",
@@ -8233,7 +8231,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 94,
+      "points": 70,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8272,10 +8270,10 @@
           "retired": false
         },
         "axe": {
-          "tier": 2,
-          "pos": 0,
-          "peak_tier": 2,
-          "peak_pos": 0,
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
           "retired": false
         },
         "nethop": {
@@ -8292,7 +8290,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 94,
+      "points": 70,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8331,10 +8329,10 @@
           "retired": false
         },
         "axe": {
-          "tier": 2,
-          "pos": 0,
-          "peak_tier": 2,
-          "peak_pos": 0,
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
           "retired": false
         },
         "nethop": {
@@ -8351,7 +8349,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 94,
+      "points": 70,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8390,10 +8388,10 @@
           "retired": false
         },
         "axe": {
-          "tier": 2,
-          "pos": 0,
-          "peak_tier": 2,
-          "peak_pos": 0,
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
           "retired": false
         },
         "nethop": {
@@ -8406,126 +8404,12 @@
       },
       "namemc": "https://namemc.com/profile/17623ecd-0b9b-4183-b9e2-fa4764a403da"
     },
-    "simonkarki_96": {
-      "uuid": "00000000-0000-4000-8000-000000a00009",
-      "name": "simonkarki_96",
-      "region": "N/A",
-      "points": 50,
-      "overall": 2,
-      "rankings": {
-        "nethop": {
-          "tier": 2,
-          "pos": 1,
-          "peak_tier": 2,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "vanilla": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "pot": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/search?q=simonkarki_96"
-    },
-    "00000000000040008000000000a00009": {
-      "uuid": "00000000-0000-4000-8000-000000a00009",
-      "name": "simonkarki_96",
-      "region": "N/A",
-      "points": 50,
-      "overall": 2,
-      "rankings": {
-        "nethop": {
-          "tier": 2,
-          "pos": 1,
-          "peak_tier": 2,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "vanilla": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "pot": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/search?q=simonkarki_96"
-    },
-    "c2728541a9a832a5858fdcb356416d62": {
-      "uuid": "00000000-0000-4000-8000-000000a00009",
-      "name": "simonkarki_96",
-      "region": "N/A",
-      "points": 50,
-      "overall": 2,
-      "rankings": {
-        "nethop": {
-          "tier": 2,
-          "pos": 1,
-          "peak_tier": 2,
-          "peak_pos": 1,
-          "retired": false
-        },
-        "vanilla": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "pot": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        },
-        "sword": {
-          "tier": 3,
-          "pos": 0,
-          "peak_tier": 3,
-          "peak_pos": 0,
-          "retired": false
-        }
-      },
-      "namemc": "https://namemc.com/search?q=simonkarki_96"
-    },
     "sanatanisam": {
       "uuid": "00000616-0000-4000-8000-0000677a9f8d",
       "name": "sanatanisam",
       "region": "N/A",
       "points": 44,
-      "overall": 3,
+      "overall": 2,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -8577,7 +8461,7 @@
       "name": "sanatanisam",
       "region": "N/A",
       "points": 44,
-      "overall": 3,
+      "overall": 2,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -8629,7 +8513,7 @@
       "name": "sanatanisam",
       "region": "N/A",
       "points": 44,
-      "overall": 3,
+      "overall": 2,
       "rankings": {
         "vanilla": {
           "tier": 5,
@@ -8681,7 +8565,7 @@
       "name": "mcflamified",
       "region": "N/A",
       "points": 40,
-      "overall": 4,
+      "overall": 3,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8733,7 +8617,7 @@
       "name": "mcflamified",
       "region": "N/A",
       "points": 40,
-      "overall": 4,
+      "overall": 3,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8785,7 +8669,7 @@
       "name": "mcflamified",
       "region": "N/A",
       "points": 40,
-      "overall": 4,
+      "overall": 3,
       "rankings": {
         "axe": {
           "tier": 3,
@@ -8831,6 +8715,120 @@
         }
       },
       "namemc": "https://namemc.com/search?q=mcflamified"
+    },
+    "simonkarki_96": {
+      "uuid": "00000000-0000-4000-8000-000000a00009",
+      "name": "simonkarki_96",
+      "region": "N/A",
+      "points": 40,
+      "overall": 4,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=simonkarki_96"
+    },
+    "00000000000040008000000000a00009": {
+      "uuid": "00000000-0000-4000-8000-000000a00009",
+      "name": "simonkarki_96",
+      "region": "N/A",
+      "points": 40,
+      "overall": 4,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=simonkarki_96"
+    },
+    "c2728541a9a832a5858fdcb356416d62": {
+      "uuid": "00000000-0000-4000-8000-000000a00009",
+      "name": "simonkarki_96",
+      "region": "N/A",
+      "points": 40,
+      "overall": 4,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=simonkarki_96"
     },
     "wspppnexus": {
       "uuid": "000020e3-0003-4000-8000-00022f142344",
@@ -27704,6 +27702,42 @@
       "overall": 0,
       "rankings": {},
       "namemc": "https://namemc.com/search?q=Lelouch_6667"
+    },
+    "LIvingSolidXD": {
+      "uuid": "00000000-0000-4000-8000-0000000000d0",
+      "name": "LIvingSolidXD",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=LIvingSolidXD"
+    },
+    "livingsolidxd": {
+      "uuid": "00000000-0000-4000-8000-0000000000d0",
+      "name": "LIvingSolidXD",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=LIvingSolidXD"
+    },
+    "000000000000400080000000000000d0": {
+      "uuid": "00000000-0000-4000-8000-0000000000d0",
+      "name": "LIvingSolidXD",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=LIvingSolidXD"
+    },
+    "202f02ad3e9b3413a0fc364aa5ea12b7": {
+      "uuid": "00000000-0000-4000-8000-0000000000d0",
+      "name": "LIvingSolidXD",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=LIvingSolidXD"
     },
     "LYRICXDOLT4": {
       "uuid": "00007d9a-000f-4000-8000-0008574429db",

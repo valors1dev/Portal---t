@@ -2602,5 +2602,12 @@
     "namemc": "https://namemc.com/search?q=Thiroda_boy",
     "skinRender": "/skins/00000000-0000-4000-8000-00000da0b000.webp",
     "isPlaceholder": true
+  },
+  "LIvingSolidXD": {
+    "uuid": "00000000-0000-4000-8000-0000000000d0",
+    "name": "LIvingSolidXD",
+    "namemc": "https://namemc.com/search?q=LIvingSolidXD",
+    "skinRender": "/skins/00000000-0000-4000-8000-0000000000d0.webp",
+    "isPlaceholder": true
   }
 }
