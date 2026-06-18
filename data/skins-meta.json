@@ -2462,5 +2462,12 @@
     "namemc": "https://namemc.com/search?q=itsNotKnox",
     "skinRender": "/skins/00000000-0000-4000-8000-000000000000.webp",
     "isPlaceholder": true
+  },
+  "RaqyxX": {
+    "uuid": "00000000-0000-4000-8000-0a0000000000",
+    "name": "RaqyxX",
+    "namemc": "https://namemc.com/search?q=RaqyxX",
+    "skinRender": "/skins/00000000-0000-4000-8000-0a0000000000.webp",
+    "isPlaceholder": true
   }
 }
