@@ -4,7 +4,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 81,
+      "points": 121,
       "rankings": {
         "pot": {
           "tier": 3,
@@ -14,10 +14,10 @@
           "retired": false
         },
         "mace": {
-          "tier": 2,
-          "pos": 1,
-          "peak_tier": 2,
-          "peak_pos": 1,
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
           "retired": false
         },
         "sword": {
@@ -7648,12 +7648,12 @@
       ]
     },
     "mace": {
-      "2": [
+      "1": [
         {
           "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
           "name": "xiots_",
           "region": "AS",
-          "pos": 1
+          "pos": 0
         }
       ],
       "3": [
@@ -8233,7 +8233,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 81,
+      "points": 121,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8244,10 +8244,10 @@
           "retired": false
         },
         "mace": {
-          "tier": 2,
-          "pos": 1,
-          "peak_tier": 2,
-          "peak_pos": 1,
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
           "retired": false
         },
         "sword": {
@@ -8292,7 +8292,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 81,
+      "points": 121,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8303,10 +8303,10 @@
           "retired": false
         },
         "mace": {
-          "tier": 2,
-          "pos": 1,
-          "peak_tier": 2,
-          "peak_pos": 1,
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
           "retired": false
         },
         "sword": {
@@ -8351,7 +8351,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 81,
+      "points": 121,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8362,10 +8362,10 @@
           "retired": false
         },
         "mace": {
-          "tier": 2,
-          "pos": 1,
-          "peak_tier": 2,
-          "peak_pos": 1,
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
           "retired": false
         },
         "sword": {
