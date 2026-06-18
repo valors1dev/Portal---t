@@ -7926,6 +7926,51 @@
       },
       "namemc": "https://namemc.com/search?q=Flamiifiied"
     },
+    "flamiifiied": {
+      "uuid": "00006b43-000c-4000-8000-00071f839e20",
+      "name": "Flamiifiied",
+      "region": "AS",
+      "points": 30,
+      "overall": 4,
+      "rankings": {
+        "axe": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=Flamiifiied"
+    },
     "00006b43000c4000800000071f839e20": {
       "uuid": "00006b43-000c-4000-8000-00071f839e20",
       "name": "Flamiifiied",
@@ -8215,6 +8260,58 @@
       "namemc": "https://namemc.com/search?q=_ta7nmay"
     },
     "__BlazeNYX": {
+      "uuid": "00000da8-0001-4000-8000-0000e831dec4",
+      "name": "__BlazeNYX",
+      "region": "AS",
+      "points": 24,
+      "overall": 6,
+      "rankings": {
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "pot": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "axe": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=__BlazeNYX"
+    },
+    "__blazenyx": {
       "uuid": "00000da8-0001-4000-8000-0000e831dec4",
       "name": "__BlazeNYX",
       "region": "AS",
@@ -9092,6 +9189,44 @@
       },
       "namemc": "https://namemc.com/profile/c005415d-db16-4fe5-9241-97e3d90a1c15"
     },
+    "wild_mish": {
+      "uuid": "c005415d-db16-4fe5-9241-97e3d90a1c15",
+      "name": "Wild_Mish",
+      "region": "AS",
+      "points": 19,
+      "overall": 13,
+      "rankings": {
+        "axe": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "pot": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/c005415d-db16-4fe5-9241-97e3d90a1c15"
+    },
     "c005415ddb164fe5924197e3d90a1c15": {
       "uuid": "c005415d-db16-4fe5-9241-97e3d90a1c15",
       "name": "Wild_Mish",
@@ -9206,6 +9341,44 @@
       },
       "namemc": "https://namemc.com/search?q=EPICBEASTT"
     },
+    "epicbeastt": {
+      "uuid": "00004b68-0009-4000-8000-000501e921fd",
+      "name": "EPICBEASTT",
+      "region": "AS",
+      "points": 18,
+      "overall": 14,
+      "rankings": {
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "axe": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=EPICBEASTT"
+    },
     "00004b68000940008000000501e921fd": {
       "uuid": "00004b68-0009-4000-8000-000501e921fd",
       "name": "EPICBEASTT",
@@ -9283,6 +9456,37 @@
       "namemc": "https://namemc.com/search?q=EPICBEASTT"
     },
     "Eagle_Anant": {
+      "uuid": "290c84ca-279f-40ac-8aee-91a17801b73b",
+      "name": "Eagle_Anant",
+      "region": "AS",
+      "points": 17,
+      "overall": 15,
+      "rankings": {
+        "sword": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/290c84ca-279f-40ac-8aee-91a17801b73b"
+    },
+    "eagle_anant": {
       "uuid": "290c84ca-279f-40ac-8aee-91a17801b73b",
       "name": "Eagle_Anant",
       "region": "AS",
@@ -9843,6 +10047,30 @@
       },
       "namemc": "https://namemc.com/profile/c29e3713-f584-44d4-972e-7f9613b05637"
     },
+    "blueicefrost": {
+      "uuid": "c29e3713-f584-44d4-972e-7f9613b05637",
+      "name": "BlueIceFrost",
+      "region": "AS",
+      "points": 12,
+      "overall": 21,
+      "rankings": {
+        "mace": {
+          "tier": 3,
+          "pos": 0,
+          "peak_tier": 3,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/c29e3713-f584-44d4-972e-7f9613b05637"
+    },
     "c29e3713f58444d4972e7f9613b05637": {
       "uuid": "c29e3713-f584-44d4-972e-7f9613b05637",
       "name": "BlueIceFrost",
@@ -9892,6 +10120,37 @@
       "namemc": "https://namemc.com/profile/c29e3713-f584-44d4-972e-7f9613b05637"
     },
     "RIP_Skk": {
+      "uuid": "00006561-000c-4000-8000-0006bb799d3a",
+      "name": "RIP_Skk",
+      "region": "AS",
+      "points": 12,
+      "overall": 22,
+      "rankings": {
+        "nethop": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=RIP_Skk"
+    },
+    "rip_skk": {
       "uuid": "00006561-000c-4000-8000-0006bb799d3a",
       "name": "RIP_Skk",
       "region": "AS",
@@ -10484,6 +10743,44 @@
       },
       "namemc": "https://namemc.com/search?q=_M4D4R4"
     },
+    "_m4d4r4": {
+      "uuid": "00001a4e-0003-4000-8000-0001bf3802f5",
+      "name": "_M4D4R4",
+      "region": "AS",
+      "points": 9,
+      "overall": 30,
+      "rankings": {
+        "pot": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "mace": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=_M4D4R4"
+    },
     "00001a4e0003400080000001bf3802f5": {
       "uuid": "00001a4e-0003-4000-8000-0001bf3802f5",
       "name": "_M4D4R4",
@@ -10828,6 +11125,37 @@
       },
       "namemc": "https://namemc.com/profile/566027b0-fa1c-465d-bd32-e6c7ff8685ab"
     },
+    "ogminerz": {
+      "uuid": "566027b0-fa1c-465d-bd32-e6c7ff8685ab",
+      "name": "OGMINERZ",
+      "region": "AS",
+      "points": 9,
+      "overall": 34,
+      "rankings": {
+        "nethop": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/566027b0-fa1c-465d-bd32-e6c7ff8685ab"
+    },
     "566027b0fa1c465dbd32e6c7ff8685ab": {
       "uuid": "566027b0-fa1c-465d-bd32-e6c7ff8685ab",
       "name": "OGMINERZ",
@@ -10891,6 +11219,30 @@
       "namemc": "https://namemc.com/profile/566027b0-fa1c-465d-bd32-e6c7ff8685ab"
     },
     "The_Ay4n": {
+      "uuid": "00005dbf-000b-4000-8000-000639bff817",
+      "name": "The_Ay4n",
+      "region": "AS",
+      "points": 9,
+      "overall": 35,
+      "rankings": {
+        "sword": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=The_Ay4n"
+    },
+    "the_ay4n": {
       "uuid": "00005dbf-000b-4000-8000-000639bff817",
       "name": "The_Ay4n",
       "region": "AS",
@@ -12418,6 +12770,37 @@
       },
       "namemc": "https://namemc.com/profile/9026ccc4-1073-47bb-90f5-0d1e45c13813"
     },
+    "voltxd_": {
+      "uuid": "9026ccc4-1073-47bb-90f5-0d1e45c13813",
+      "name": "VoltxD_",
+      "region": "AS",
+      "points": 7,
+      "overall": 52,
+      "rankings": {
+        "nethop": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "pot": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "sword": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/9026ccc4-1073-47bb-90f5-0d1e45c13813"
+    },
     "9026ccc4107347bb90f50d1e45c13813": {
       "uuid": "9026ccc4-1073-47bb-90f5-0d1e45c13813",
       "name": "VoltxD_",
@@ -12481,6 +12864,30 @@
       "namemc": "https://namemc.com/profile/9026ccc4-1073-47bb-90f5-0d1e45c13813"
     },
     "[1.21+] PORTAL TIERS": {
+      "uuid": "00000000-0000-4000-8000-010210000000",
+      "name": "[1.21+] PORTAL TIERS",
+      "region": "N/A",
+      "points": 6,
+      "overall": 53,
+      "rankings": {
+        "pot": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=%5B1.21%2B%5D%20PORTAL%20TIERS"
+    },
+    "[1.21+] portal tiers": {
       "uuid": "00000000-0000-4000-8000-010210000000",
       "name": "[1.21+] PORTAL TIERS",
       "region": "N/A",
@@ -12685,6 +13092,37 @@
       },
       "namemc": "https://namemc.com/search?q=Aizer_xD"
     },
+    "aizer_xd": {
+      "uuid": "000045b0-0008-4000-8000-0004a0b28415",
+      "name": "Aizer_xD",
+      "region": "AS",
+      "points": 6,
+      "overall": 56,
+      "rankings": {
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=Aizer_xD"
+    },
     "000045b00008400080000004a0b28415": {
       "uuid": "000045b0-0008-4000-8000-0004a0b28415",
       "name": "Aizer_xD",
@@ -12799,6 +13237,44 @@
       "namemc": "https://namemc.com/search?q=callmeryu._."
     },
     "CreationIsLive": {
+      "uuid": "00005629-000a-4000-8000-0005b8b93672",
+      "name": "CreationIsLive",
+      "region": "AS",
+      "points": 6,
+      "overall": 58,
+      "rankings": {
+        "pot": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "sword": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "mace": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=CreationIsLive"
+    },
+    "creationislive": {
       "uuid": "00005629-000a-4000-8000-0005b8b93672",
       "name": "CreationIsLive",
       "region": "AS",
@@ -13175,6 +13651,23 @@
       },
       "namemc": "https://namemc.com/search?q=Era_Plays23"
     },
+    "era_plays23": {
+      "uuid": "000043d4-0008-4000-8000-0004812233de",
+      "name": "Era_Plays23",
+      "region": "AS",
+      "points": 6,
+      "overall": 63,
+      "rankings": {
+        "sword": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=Era_Plays23"
+    },
     "000043d40008400080000004812233de": {
       "uuid": "000043d4-0008-4000-8000-0004812233de",
       "name": "Era_Plays23",
@@ -13324,6 +13817,23 @@
       "namemc": "https://namemc.com/search?q=harshityadavog"
     },
     "Havadon_YT": {
+      "uuid": "00001bf8-0003-4000-8000-0001db8445f4",
+      "name": "Havadon_YT",
+      "region": "AS",
+      "points": 6,
+      "overall": 65,
+      "rankings": {
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=Havadon_YT"
+    },
+    "havadon_yt": {
       "uuid": "00001bf8-0003-4000-8000-0001db8445f4",
       "name": "Havadon_YT",
       "region": "AS",
@@ -14099,6 +14609,23 @@
       },
       "namemc": "https://namemc.com/search?q=Valtheron"
     },
+    "valtheron": {
+      "uuid": "000070a0-000d-4000-8000-00077aa8bab2",
+      "name": "Valtheron",
+      "region": "AS",
+      "points": 6,
+      "overall": 77,
+      "rankings": {
+        "nethop": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=Valtheron"
+    },
     "000070a0000d4000800000077aa8bab2": {
       "uuid": "000070a0-000d-4000-8000-00077aa8bab2",
       "name": "Valtheron",
@@ -14134,6 +14661,23 @@
       "namemc": "https://namemc.com/search?q=Valtheron"
     },
     "VenomQQ11": {
+      "uuid": "da02f950-3aa3-415a-9a1b-88534674d18a",
+      "name": "VenomQQ11",
+      "region": "AS",
+      "points": 6,
+      "overall": 78,
+      "rankings": {
+        "mace": {
+          "tier": 3,
+          "pos": 1,
+          "peak_tier": 3,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/da02f950-3aa3-415a-9a1b-88534674d18a"
+    },
+    "venomqq11": {
       "uuid": "da02f950-3aa3-415a-9a1b-88534674d18a",
       "name": "VenomQQ11",
       "region": "AS",
@@ -15527,6 +16071,23 @@
       },
       "namemc": "https://namemc.com/profile/b339c19d-e80b-43ff-b139-70ded397cc99"
     },
+    "feyzo_": {
+      "uuid": "b339c19d-e80b-43ff-b139-70ded397cc99",
+      "name": "Feyzo_",
+      "region": "AS",
+      "points": 4,
+      "overall": 98,
+      "rankings": {
+        "vanilla": {
+          "tier": 4,
+          "pos": 0,
+          "peak_tier": 4,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/b339c19d-e80b-43ff-b139-70ded397cc99"
+    },
     "b339c19de80b43ffb13970ded397cc99": {
       "uuid": "b339c19d-e80b-43ff-b139-70ded397cc99",
       "name": "Feyzo_",
@@ -15685,6 +16246,30 @@
       "namemc": "https://namemc.com/search?q=haxx9"
     },
     "ItzRealVedant_": {
+      "uuid": "00003670-0006-4000-8000-00039d7699f7",
+      "name": "ItzRealVedant_",
+      "region": "AS",
+      "points": 4,
+      "overall": 101,
+      "rankings": {
+        "vanilla": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "sword": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=ItzRealVedant_"
+    },
+    "itzrealvedant_": {
       "uuid": "00003670-0006-4000-8000-00039d7699f7",
       "name": "ItzRealVedant_",
       "region": "AS",
@@ -16054,6 +16639,37 @@
       "namemc": "https://namemc.com/search?q=q8nn7_"
     },
     "RipperSensei": {
+      "uuid": "00003c12-0007-4000-8000-0003fd3dcc48",
+      "name": "RipperSensei",
+      "region": "AS",
+      "points": 4,
+      "overall": 107,
+      "rankings": {
+        "mace": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "sword": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=RipperSensei"
+    },
+    "rippersensei": {
       "uuid": "00003c12-0007-4000-8000-0003fd3dcc48",
       "name": "RipperSensei",
       "region": "AS",
@@ -16560,6 +17176,30 @@
       },
       "namemc": "https://namemc.com/search?q=unrealArcn"
     },
+    "unrealarcn": {
+      "uuid": "00003ced-0007-4000-8000-00040bc5cdf4",
+      "name": "unrealArcn",
+      "region": "AS",
+      "points": 4,
+      "overall": 114,
+      "rankings": {
+        "sword": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        },
+        "mace": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=unrealArcn"
+    },
     "00003ced00074000800000040bc5cdf4": {
       "uuid": "00003ced-0007-4000-8000-00040bc5cdf4",
       "name": "unrealArcn",
@@ -16918,6 +17558,23 @@
       "namemc": "https://namemc.com/profile/1bef5412-d061-41e6-8f65-ceb60f884f17"
     },
     "Abystrix": {
+      "uuid": "00002d89-0005-4000-8000-000306277a0f",
+      "name": "Abystrix",
+      "region": "AS",
+      "points": 3,
+      "overall": 119,
+      "rankings": {
+        "vanilla": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=Abystrix"
+    },
+    "abystrix": {
       "uuid": "00002d89-0005-4000-8000-000306277a0f",
       "name": "Abystrix",
       "region": "AS",
@@ -18539,6 +19196,23 @@
       },
       "namemc": "https://namemc.com/search?q=ZapDo_YT"
     },
+    "zapdo_yt": {
+      "uuid": "00004f67-0009-4000-8000-000545da4131",
+      "name": "ZapDo_YT",
+      "region": "AS",
+      "points": 3,
+      "overall": 148,
+      "rankings": {
+        "nethop": {
+          "tier": 4,
+          "pos": 1,
+          "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=ZapDo_YT"
+    },
     "00004f67000940008000000545da4131": {
       "uuid": "00004f67-0009-4000-8000-000545da4131",
       "name": "ZapDo_YT",
@@ -18625,6 +19299,23 @@
       "namemc": "https://namemc.com/profile/1e68c159-57d0-443b-b70a-c3d4ccbcbd21"
     },
     "_NgsYash_": {
+      "uuid": "00000507-0000-4000-8000-00005585ce14",
+      "name": "_NgsYash_",
+      "region": "AS",
+      "points": 2,
+      "overall": 150,
+      "rankings": {
+        "vanilla": {
+          "tier": 5,
+          "pos": 0,
+          "peak_tier": 5,
+          "peak_pos": 0,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=_NgsYash_"
+    },
+    "_ngsyash_": {
       "uuid": "00000507-0000-4000-8000-00005585ce14",
       "name": "_NgsYash_",
       "region": "AS",
@@ -20952,6 +21643,23 @@
       },
       "namemc": "https://namemc.com/search?q=ANMOL_GAMERZ"
     },
+    "anmol_gamerz": {
+      "uuid": "00001e73-0003-4000-8000-000205a6dcfb",
+      "name": "ANMOL_GAMERZ",
+      "region": "AS",
+      "points": 1,
+      "overall": 194,
+      "rankings": {
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=ANMOL_GAMERZ"
+    },
     "00001e73000340008000000205a6dcfb": {
       "uuid": "00001e73-0003-4000-8000-000205a6dcfb",
       "name": "ANMOL_GAMERZ",
@@ -21666,6 +22374,23 @@
       },
       "namemc": "https://namemc.com/profile/f8ef5df3-9705-4617-8e4a-fe560fdcaa89"
     },
+    "flexxyxp": {
+      "uuid": "f8ef5df3-9705-4617-8e4a-fe560fdcaa89",
+      "name": "FlexxyXP",
+      "region": "AS",
+      "points": 1,
+      "overall": 208,
+      "rankings": {
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/profile/f8ef5df3-9705-4617-8e4a-fe560fdcaa89"
+    },
     "f8ef5df3970546178e4afe560fdcaa89": {
       "uuid": "f8ef5df3-9705-4617-8e4a-fe560fdcaa89",
       "name": "FlexxyXP",
@@ -21956,6 +22681,23 @@
       "namemc": "https://namemc.com/search?q=icontrolgamingyt"
     },
     "ITz_CRYONIX_XxX": {
+      "uuid": "00000000-0000-4000-8000-0000C0000000",
+      "name": "ITz_CRYONIX_XxX",
+      "region": "AS",
+      "points": 1,
+      "overall": 214,
+      "rankings": {
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=ITz_CRYONIX_XxX"
+    },
+    "itz_cryonix_xxx": {
       "uuid": "00000000-0000-4000-8000-0000C0000000",
       "name": "ITz_CRYONIX_XxX",
       "region": "AS",
@@ -22516,6 +23258,23 @@
       },
       "namemc": "https://namemc.com/search?q=Nahin1233"
     },
+    "nahin1233": {
+      "uuid": "00000719-0000-4000-8000-000078b56508",
+      "name": "Nahin1233",
+      "region": "AS",
+      "points": 1,
+      "overall": 225,
+      "rankings": {
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=Nahin1233"
+    },
     "00000719000040008000000078b56508": {
       "uuid": "00000719-0000-4000-8000-000078b56508",
       "name": "Nahin1233",
@@ -22704,6 +23463,23 @@
       "namemc": "https://namemc.com/search?q=pandaz_35"
     },
     "RajaVerse": {
+      "uuid": "00004ce8-0009-4000-8000-00051b6f76c4",
+      "name": "RajaVerse",
+      "region": "AS",
+      "points": 1,
+      "overall": 229,
+      "rankings": {
+        "vanilla": {
+          "tier": 5,
+          "pos": 1,
+          "peak_tier": 5,
+          "peak_pos": 1,
+          "retired": false
+        }
+      },
+      "namemc": "https://namemc.com/search?q=RajaVerse"
+    },
+    "rajaverse": {
       "uuid": "00004ce8-0009-4000-8000-00051b6f76c4",
       "name": "RajaVerse",
       "region": "AS",
@@ -23375,6 +24151,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=.LuffyGamerz1182"
     },
+    ".luffygamerz1182": {
+      "uuid": "000058b6-000a-4000-8000-0005e4234d81",
+      "name": ".LuffyGamerz1182",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=.LuffyGamerz1182"
+    },
     "000058b6000a400080000005e4234d81": {
       "uuid": "000058b6-000a-4000-8000-0005e4234d81",
       "name": ".LuffyGamerz1182",
@@ -23456,6 +24241,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=AbzztimeYT"
     },
+    "abzztimeyt": {
+      "uuid": "00000000-0000-4000-8000-Ab00000e0000",
+      "name": "AbzztimeYT",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=AbzztimeYT"
+    },
     "00000000000040008000ab00000e0000": {
       "uuid": "00000000-0000-4000-8000-Ab00000e0000",
       "name": "AbzztimeYT",
@@ -23475,6 +24269,15 @@
       "namemc": "https://namemc.com/search?q=AbzztimeYT"
     },
     "Aisha_op": {
+      "uuid": "000039e0-0007-4000-8000-0003d7ed1205",
+      "name": "Aisha_op",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Aisha_op"
+    },
+    "aisha_op": {
       "uuid": "000039e0-0007-4000-8000-0003d7ed1205",
       "name": "Aisha_op",
       "region": "AS",
@@ -23510,6 +24313,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=AKinfinitezzz"
     },
+    "akinfinitezzz": {
+      "uuid": "000075d8-000e-4000-8000-0007d359bdc7",
+      "name": "AKinfinitezzz",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=AKinfinitezzz"
+    },
     "000075d8000e400080000007d359bdc7": {
       "uuid": "000075d8-000e-4000-8000-0007d359bdc7",
       "name": "AKinfinitezzz",
@@ -23529,6 +24341,15 @@
       "namemc": "https://namemc.com/search?q=AKinfinitezzz"
     },
     "AnirudhXD": {
+      "uuid": "fbb1764e-16bf-49cd-a6a2-bf2ad14fcf4f",
+      "name": "AnirudhXD",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/fbb1764e-16bf-49cd-a6a2-bf2ad14fcf4f"
+    },
+    "anirudhxd": {
       "uuid": "fbb1764e-16bf-49cd-a6a2-bf2ad14fcf4f",
       "name": "AnirudhXD",
       "region": "AS",
@@ -23564,6 +24385,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=arChizZzz"
     },
+    "archizzzz": {
+      "uuid": "00004701-0008-4000-8000-0004b7200400",
+      "name": "arChizZzz",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=arChizZzz"
+    },
     "000047010008400080000004b7200400": {
       "uuid": "00004701-0008-4000-8000-0004b7200400",
       "name": "arChizZzz",
@@ -23583,6 +24413,15 @@
       "namemc": "https://namemc.com/search?q=arChizZzz"
     },
     "Axxoryn": {
+      "uuid": "1f8faf82-a2a2-4c54-96a5-a946707f2087",
+      "name": "Axxoryn",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/1f8faf82-a2a2-4c54-96a5-a946707f2087"
+    },
+    "axxoryn": {
       "uuid": "1f8faf82-a2a2-4c54-96a5-a946707f2087",
       "name": "Axxoryn",
       "region": "AS",
@@ -23618,6 +24457,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=ByteElite05"
     },
+    "byteelite05": {
+      "uuid": "0000299b-0005-4000-8000-0002c3593cb3",
+      "name": "ByteElite05",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=ByteElite05"
+    },
     "0000299b0005400080000002c3593cb3": {
       "uuid": "0000299b-0005-4000-8000-0002c3593cb3",
       "name": "ByteElite05",
@@ -23637,6 +24485,15 @@
       "namemc": "https://namemc.com/search?q=ByteElite05"
     },
     "CS_SHIVAM": {
+      "uuid": "000009d6-0001-4000-8000-0000a73a0a56",
+      "name": "CS_SHIVAM",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=CS_SHIVAM"
+    },
+    "cs_shivam": {
       "uuid": "000009d6-0001-4000-8000-0000a73a0a56",
       "name": "CS_SHIVAM",
       "region": "AS",
@@ -23672,6 +24529,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=Darks_Shadows"
     },
+    "darks_shadows": {
+      "uuid": "00003fc7-0007-4000-8000-00043c40b3de",
+      "name": "Darks_Shadows",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Darks_Shadows"
+    },
     "00003fc700074000800000043c40b3de": {
       "uuid": "00003fc7-0007-4000-8000-00043c40b3de",
       "name": "Darks_Shadows",
@@ -23691,6 +24557,15 @@
       "namemc": "https://namemc.com/search?q=Darks_Shadows"
     },
     "DeadReaperxD": {
+      "uuid": "00000000-0000-4000-8000-Dead0ea0e00D",
+      "name": "DeadReaperxD",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=DeadReaperxD"
+    },
+    "deadreaperxd": {
       "uuid": "00000000-0000-4000-8000-Dead0ea0e00D",
       "name": "DeadReaperxD",
       "region": "AS",
@@ -23726,6 +24601,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=DemonKing522"
     },
+    "demonking522": {
+      "uuid": "00000000-0000-4000-8000-De0000000522",
+      "name": "DemonKing522",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=DemonKing522"
+    },
     "00000000000040008000de0000000522": {
       "uuid": "00000000-0000-4000-8000-De0000000522",
       "name": "DemonKing522",
@@ -23745,6 +24629,15 @@
       "namemc": "https://namemc.com/search?q=DemonKing522"
     },
     "DirectlyOG": {
+      "uuid": "37558654-dc18-4d9e-8b50-a78a8d78a2e7",
+      "name": "DirectlyOG",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/37558654-dc18-4d9e-8b50-a78a8d78a2e7"
+    },
+    "directlyog": {
       "uuid": "37558654-dc18-4d9e-8b50-a78a8d78a2e7",
       "name": "DirectlyOG",
       "region": "AS",
@@ -23780,6 +24673,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/profile/bdfe5f1d-92a7-4e2f-9428-62cf3ce06832"
     },
+    "draxogameryt": {
+      "uuid": "bdfe5f1d-92a7-4e2f-9428-62cf3ce06832",
+      "name": "DraxoGamerYT",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/bdfe5f1d-92a7-4e2f-9428-62cf3ce06832"
+    },
     "bdfe5f1d92a74e2f942862cf3ce06832": {
       "uuid": "bdfe5f1d-92a7-4e2f-9428-62cf3ce06832",
       "name": "DraxoGamerYT",
@@ -23799,6 +24701,15 @@
       "namemc": "https://namemc.com/profile/bdfe5f1d-92a7-4e2f-9428-62cf3ce06832"
     },
     "DynastyTheOG": {
+      "uuid": "4aba4bd0-4545-4f75-9817-62312e1220d0",
+      "name": "DynastyTheOG",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/4aba4bd0-4545-4f75-9817-62312e1220d0"
+    },
+    "dynastytheog": {
       "uuid": "4aba4bd0-4545-4f75-9817-62312e1220d0",
       "name": "DynastyTheOG",
       "region": "AS",
@@ -23834,6 +24745,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=FaisalGaming19"
     },
+    "faisalgaming19": {
+      "uuid": "00000000-0000-4000-8000-Fa00a00a0000",
+      "name": "FaisalGaming19",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=FaisalGaming19"
+    },
     "00000000000040008000fa00a00a0000": {
       "uuid": "00000000-0000-4000-8000-Fa00a00a0000",
       "name": "FaisalGaming19",
@@ -23853,6 +24773,15 @@
       "namemc": "https://namemc.com/search?q=FaisalGaming19"
     },
     "GAMERGX_YT": {
+      "uuid": "000011ed-0002-4000-8000-000130cb2942",
+      "name": "GAMERGX_YT",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=GAMERGX_YT"
+    },
+    "gamergx_yt": {
       "uuid": "000011ed-0002-4000-8000-000130cb2942",
       "name": "GAMERGX_YT",
       "region": "AS",
@@ -23888,6 +24817,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/profile/6360f8fe-1ddc-4916-a129-167d03b8b1f6"
     },
+    "gangsterjethya": {
+      "uuid": "6360f8fe-1ddc-4916-a129-167d03b8b1f6",
+      "name": "GANGSTERJETHYA",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/6360f8fe-1ddc-4916-a129-167d03b8b1f6"
+    },
     "6360f8fe1ddc4916a129167d03b8b1f6": {
       "uuid": "6360f8fe-1ddc-4916-a129-167d03b8b1f6",
       "name": "GANGSTERJETHYA",
@@ -23907,6 +24845,15 @@
       "namemc": "https://namemc.com/profile/6360f8fe-1ddc-4916-a129-167d03b8b1f6"
     },
     "HamiPlayZ": {
+      "uuid": "00006b8c-000d-4000-8000-0007245bc182",
+      "name": "HamiPlayZ",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=HamiPlayZ"
+    },
+    "hamiplayz": {
       "uuid": "00006b8c-000d-4000-8000-0007245bc182",
       "name": "HamiPlayZ",
       "region": "AS",
@@ -23969,6 +24916,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=IconicH4sib"
     },
+    "iconich4sib": {
+      "uuid": "00000b00-0001-4000-8000-0000bb099e5a",
+      "name": "IconicH4sib",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=IconicH4sib"
+    },
     "00000b000001400080000000bb099e5a": {
       "uuid": "00000b00-0001-4000-8000-0000bb099e5a",
       "name": "IconicH4sib",
@@ -23988,6 +24944,15 @@
       "namemc": "https://namemc.com/search?q=IconicH4sib"
     },
     "itsNotKnox": {
+      "uuid": "00000000-0000-4000-8000-000000000000",
+      "name": "itsNotKnox",
+      "region": "AU",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=itsNotKnox"
+    },
+    "itsnotknox": {
       "uuid": "00000000-0000-4000-8000-000000000000",
       "name": "itsNotKnox",
       "region": "AU",
@@ -24023,6 +24988,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=Itz_BlinkStrike"
     },
+    "itz_blinkstrike": {
+      "uuid": "0000120c-0002-4000-8000-000132cdaffb",
+      "name": "Itz_BlinkStrike",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Itz_BlinkStrike"
+    },
     "0000120c000240008000000132cdaffb": {
       "uuid": "0000120c-0002-4000-8000-000132cdaffb",
       "name": "Itz_BlinkStrike",
@@ -24042,6 +25016,15 @@
       "namemc": "https://namemc.com/search?q=Itz_BlinkStrike"
     },
     "ITZ_VEZZY": {
+      "uuid": "0e5c019d-0377-44c0-bd42-96be8a138e79",
+      "name": "ITZ_VEZZY",
+      "region": "ME",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/0e5c019d-0377-44c0-bd42-96be8a138e79"
+    },
+    "itz_vezzy": {
       "uuid": "0e5c019d-0377-44c0-bd42-96be8a138e79",
       "name": "ITZ_VEZZY",
       "region": "ME",
@@ -24077,6 +25060,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=ItzNoman25"
     },
+    "itznoman25": {
+      "uuid": "00002997-0005-4000-8000-0002c315ee9a",
+      "name": "ItzNoman25",
+      "region": "NA",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=ItzNoman25"
+    },
     "000029970005400080000002c315ee9a": {
       "uuid": "00002997-0005-4000-8000-0002c315ee9a",
       "name": "ItzNoman25",
@@ -24096,6 +25088,15 @@
       "namemc": "https://namemc.com/search?q=ItzNoman25"
     },
     "JayOp21": {
+      "uuid": "b5f2a689-8e1e-425f-81b1-c9f46f5fe84e",
+      "name": "JayOp21",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/b5f2a689-8e1e-425f-81b1-c9f46f5fe84e"
+    },
+    "jayop21": {
       "uuid": "b5f2a689-8e1e-425f-81b1-c9f46f5fe84e",
       "name": "JayOp21",
       "region": "AS",
@@ -24131,6 +25132,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=Lelouch_6667"
     },
+    "lelouch_6667": {
+      "uuid": "00000000-0000-4000-8000-0e000c006667",
+      "name": "Lelouch_6667",
+      "region": "ME",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Lelouch_6667"
+    },
     "000000000000400080000e000c006667": {
       "uuid": "00000000-0000-4000-8000-0e000c006667",
       "name": "Lelouch_6667",
@@ -24150,6 +25160,15 @@
       "namemc": "https://namemc.com/search?q=Lelouch_6667"
     },
     "LYRICXDOLT4": {
+      "uuid": "00007d9a-000f-4000-8000-0008574429db",
+      "name": "LYRICXDOLT4",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=LYRICXDOLT4"
+    },
+    "lyricxdolt4": {
       "uuid": "00007d9a-000f-4000-8000-0008574429db",
       "name": "LYRICXDOLT4",
       "region": "AS",
@@ -24185,6 +25204,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=Naabdiho_maxX"
     },
+    "naabdiho_maxx": {
+      "uuid": "00000000-0000-4000-8000-0aabd00000a0",
+      "name": "Naabdiho_maxX",
+      "region": "AU",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Naabdiho_maxX"
+    },
     "000000000000400080000aabd00000a0": {
       "uuid": "00000000-0000-4000-8000-0aabd00000a0",
       "name": "Naabdiho_maxX",
@@ -24204,6 +25232,15 @@
       "namemc": "https://namemc.com/search?q=Naabdiho_maxX"
     },
     "NotDaddyMiskat": {
+      "uuid": "000008e3-0001-4000-8000-0000971f2ce7",
+      "name": "NotDaddyMiskat",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=NotDaddyMiskat"
+    },
+    "notdaddymiskat": {
       "uuid": "000008e3-0001-4000-8000-0000971f2ce7",
       "name": "NotDaddyMiskat",
       "region": "AS",
@@ -24239,6 +25276,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=NotDemonic256"
     },
+    "notdemonic256": {
+      "uuid": "00000000-0000-4000-8000-000De0000c25",
+      "name": "NotDemonic256",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=NotDemonic256"
+    },
     "00000000000040008000000de0000c25": {
       "uuid": "00000000-0000-4000-8000-000De0000c25",
       "name": "NotDemonic256",
@@ -24258,6 +25304,15 @@
       "namemc": "https://namemc.com/search?q=NotDemonic256"
     },
     "NotNexx95": {
+      "uuid": "19081632-b87b-4d9b-b147-ad4ed6802d64",
+      "name": "NotNexx95",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/19081632-b87b-4d9b-b147-ad4ed6802d64"
+    },
+    "notnexx95": {
       "uuid": "19081632-b87b-4d9b-b147-ad4ed6802d64",
       "name": "NotNexx95",
       "region": "AS",
@@ -24293,6 +25348,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=NotShamu"
     },
+    "notshamu": {
+      "uuid": "00000000-0000-4000-8000-00000a000000",
+      "name": "NotShamu",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=NotShamu"
+    },
     "0000000000004000800000000a000000": {
       "uuid": "00000000-0000-4000-8000-00000a000000",
       "name": "NotShamu",
@@ -24312,6 +25376,15 @@
       "namemc": "https://namemc.com/search?q=NotShamu"
     },
     "PhanomPlayzz": {
+      "uuid": "000057a6-000a-4000-8000-0005d20af3b0",
+      "name": "PhanomPlayzz",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=PhanomPlayzz"
+    },
+    "phanomplayzz": {
       "uuid": "000057a6-000a-4000-8000-0005d20af3b0",
       "name": "PhanomPlayzz",
       "region": "AS",
@@ -24347,6 +25420,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=PrimeRyuu_"
     },
+    "primeryuu_": {
+      "uuid": "00000000-0000-4000-8000-0000e0000000",
+      "name": "PrimeRyuu_",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=PrimeRyuu_"
+    },
     "000000000000400080000000e0000000": {
       "uuid": "00000000-0000-4000-8000-0000e0000000",
       "name": "PrimeRyuu_",
@@ -24366,6 +25448,15 @@
       "namemc": "https://namemc.com/search?q=PrimeRyuu_"
     },
     "RafyPlayz": {
+      "uuid": "79a5538c-822d-4c8f-b85a-933e01f3af7e",
+      "name": "RafyPlayz",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/79a5538c-822d-4c8f-b85a-933e01f3af7e"
+    },
+    "rafyplayz": {
       "uuid": "79a5538c-822d-4c8f-b85a-933e01f3af7e",
       "name": "RafyPlayz",
       "region": "AS",
@@ -24401,6 +25492,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=Riju_playz%23"
     },
+    "riju_playz#": {
+      "uuid": "00000000-0000-4000-8000-0000000a0000",
+      "name": "Riju_playz#",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Riju_playz%23"
+    },
     "000000000000400080000000000a0000": {
       "uuid": "00000000-0000-4000-8000-0000000a0000",
       "name": "Riju_playz#",
@@ -24420,6 +25520,15 @@
       "namemc": "https://namemc.com/search?q=Riju_playz%23"
     },
     "Ripxo69Gamer": {
+      "uuid": "3274b0c1-f7bb-493b-8e18-647984e86ab6",
+      "name": "Ripxo69Gamer",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/3274b0c1-f7bb-493b-8e18-647984e86ab6"
+    },
+    "ripxo69gamer": {
       "uuid": "3274b0c1-f7bb-493b-8e18-647984e86ab6",
       "name": "Ripxo69Gamer",
       "region": "AS",
@@ -24482,6 +25591,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=S4RK_LEGEND"
     },
+    "s4rk_legend": {
+      "uuid": "00000000-0000-4000-8000-040000E0E0D0",
+      "name": "S4RK_LEGEND",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=S4RK_LEGEND"
+    },
     "00000000000040008000040000e0e0d0": {
       "uuid": "00000000-0000-4000-8000-040000E0E0D0",
       "name": "S4RK_LEGEND",
@@ -24501,6 +25619,15 @@
       "namemc": "https://namemc.com/search?q=S4RK_LEGEND"
     },
     "Sanpai_82": {
+      "uuid": "00000000-0000-4000-8000-0a00a0082000",
+      "name": "Sanpai_82",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Sanpai_82"
+    },
+    "sanpai_82": {
       "uuid": "00000000-0000-4000-8000-0a00a0082000",
       "name": "Sanpai_82",
       "region": "AS",
@@ -24536,6 +25663,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=Sasuke_Plays"
     },
+    "sasuke_plays": {
+      "uuid": "0000466d-0008-4000-8000-0004ad3d98ed",
+      "name": "Sasuke_Plays",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Sasuke_Plays"
+    },
     "0000466d0008400080000004ad3d98ed": {
       "uuid": "0000466d-0008-4000-8000-0004ad3d98ed",
       "name": "Sasuke_Plays",
@@ -24555,6 +25691,15 @@
       "namemc": "https://namemc.com/search?q=Sasuke_Plays"
     },
     "Senpa_Playz": {
+      "uuid": "00000000-0000-4000-8000-0e00a000a000",
+      "name": "Senpa_Playz",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Senpa_Playz"
+    },
+    "senpa_playz": {
       "uuid": "00000000-0000-4000-8000-0e00a000a000",
       "name": "Senpa_Playz",
       "region": "AS",
@@ -24590,6 +25735,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=SensiXD"
     },
+    "sensixd": {
+      "uuid": "00003440-0006-4000-8000-00037846f865",
+      "name": "SensiXD",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=SensiXD"
+    },
     "0000344000064000800000037846f865": {
       "uuid": "00003440-0006-4000-8000-00037846f865",
       "name": "SensiXD",
@@ -24609,6 +25763,15 @@
       "namemc": "https://namemc.com/search?q=SensiXD"
     },
     "ShivamPlayz_": {
+      "uuid": "0000558d-000a-4000-8000-0005ae605620",
+      "name": "ShivamPlayz_",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=ShivamPlayz_"
+    },
+    "shivamplayz_": {
       "uuid": "0000558d-000a-4000-8000-0005ae605620",
       "name": "ShivamPlayz_",
       "region": "AS",
@@ -24644,6 +25807,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/profile/c56ec679-a7d7-43ff-b9d7-5618c7655f1d"
     },
+    "skibiddyvanity": {
+      "uuid": "c56ec679-a7d7-43ff-b9d7-5618c7655f1d",
+      "name": "SkibiddyVanity",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/c56ec679-a7d7-43ff-b9d7-5618c7655f1d"
+    },
     "c56ec679a7d743ffb9d75618c7655f1d": {
       "uuid": "c56ec679-a7d7-43ff-b9d7-5618c7655f1d",
       "name": "SkibiddyVanity",
@@ -24671,6 +25843,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=SKY_PLYZ"
     },
+    "sky_plyz": {
+      "uuid": "00000000-0000-4000-8000-000000000000",
+      "name": "SKY_PLYZ",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=SKY_PLYZ"
+    },
     "601768c059c83c5e8a22c3f28523ed0d": {
       "uuid": "00000000-0000-4000-8000-000000000000",
       "name": "SKY_PLYZ",
@@ -24681,6 +25862,15 @@
       "namemc": "https://namemc.com/search?q=SKY_PLYZ"
     },
     "SPARZKTURN": {
+      "uuid": "00001461-0002-4000-8000-00015a7d21e5",
+      "name": "SPARZKTURN",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=SPARZKTURN"
+    },
+    "sparzkturn": {
       "uuid": "00001461-0002-4000-8000-00015a7d21e5",
       "name": "SPARZKTURN",
       "region": "AS",
@@ -24716,6 +25906,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/profile/d4a82808-5f1b-4baa-9248-11e943a3a0ba"
     },
+    "st4enth": {
+      "uuid": "d4a82808-5f1b-4baa-9248-11e943a3a0ba",
+      "name": "St4enth",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/d4a82808-5f1b-4baa-9248-11e943a3a0ba"
+    },
     "d4a828085f1b4baa924811e943a3a0ba": {
       "uuid": "d4a82808-5f1b-4baa-9248-11e943a3a0ba",
       "name": "St4enth",
@@ -24735,6 +25934,15 @@
       "namemc": "https://namemc.com/profile/d4a82808-5f1b-4baa-9248-11e943a3a0ba"
     },
     "STRENGHT_YT": {
+      "uuid": "29dea4c8-dae3-4f7c-8265-b1277ec1960a",
+      "name": "STRENGHT_YT",
+      "region": "EU",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/29dea4c8-dae3-4f7c-8265-b1277ec1960a"
+    },
+    "strenght_yt": {
       "uuid": "29dea4c8-dae3-4f7c-8265-b1277ec1960a",
       "name": "STRENGHT_YT",
       "region": "EU",
@@ -24770,6 +25978,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/profile/047cde3b-7d31-4944-90e3-084d9d161110"
     },
+    "sv2bladeezr": {
+      "uuid": "047cde3b-7d31-4944-90e3-084d9d161110",
+      "name": "Sv2Bladeezr",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/047cde3b-7d31-4944-90e3-084d9d161110"
+    },
     "047cde3b7d31494490e3084d9d161110": {
       "uuid": "047cde3b-7d31-4944-90e3-084d9d161110",
       "name": "Sv2Bladeezr",
@@ -24789,6 +26006,15 @@
       "namemc": "https://namemc.com/profile/047cde3b-7d31-4944-90e3-084d9d161110"
     },
     "TaznixYT_": {
+      "uuid": "00004147-0007-4000-8000-000455b93db1",
+      "name": "TaznixYT_",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=TaznixYT_"
+    },
+    "taznixyt_": {
       "uuid": "00004147-0007-4000-8000-000455b93db1",
       "name": "TaznixYT_",
       "region": "AS",
@@ -24824,6 +26050,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/profile/d8d5a923-7b20-43d8-883b-1150148d6955"
     },
+    "test": {
+      "uuid": "d8d5a923-7b20-43d8-883b-1150148d6955",
+      "name": "Test",
+      "region": "N/A",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/d8d5a923-7b20-43d8-883b-1150148d6955"
+    },
     "d8d5a9237b2043d8883b1150148d6955": {
       "uuid": "d8d5a923-7b20-43d8-883b-1150148d6955",
       "name": "Test",
@@ -24843,6 +26078,15 @@
       "namemc": "https://namemc.com/profile/d8d5a923-7b20-43d8-883b-1150148d6955"
     },
     "The_Echo_Sensei": {
+      "uuid": "94d1ad0e-6a38-4d9f-bb75-717195bdaf28",
+      "name": "The_Echo_Sensei",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/94d1ad0e-6a38-4d9f-bb75-717195bdaf28"
+    },
+    "the_echo_sensei": {
       "uuid": "94d1ad0e-6a38-4d9f-bb75-717195bdaf28",
       "name": "The_Echo_Sensei",
       "region": "AS",
@@ -24878,6 +26122,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=TOXIC_4C3"
     },
+    "toxic_4c3": {
+      "uuid": "00005468-000a-4000-8000-00059af24ca7",
+      "name": "TOXIC_4C3",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=TOXIC_4C3"
+    },
     "00005468000a4000800000059af24ca7": {
       "uuid": "00005468-000a-4000-8000-00059af24ca7",
       "name": "TOXIC_4C3",
@@ -24897,6 +26150,15 @@
       "namemc": "https://namemc.com/search?q=TOXIC_4C3"
     },
     "UnfairUv_": {
+      "uuid": "00000000-0000-4000-8000-00fa00000000",
+      "name": "UnfairUv_",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=UnfairUv_"
+    },
+    "unfairuv_": {
       "uuid": "00000000-0000-4000-8000-00fa00000000",
       "name": "UnfairUv_",
       "region": "AS",
@@ -24932,6 +26194,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=VEER3686"
     },
+    "veer3686": {
+      "uuid": "00000000-0000-4000-8000-0EE036860000",
+      "name": "VEER3686",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=VEER3686"
+    },
     "000000000000400080000ee036860000": {
       "uuid": "00000000-0000-4000-8000-0EE036860000",
       "name": "VEER3686",
@@ -24959,6 +26230,15 @@
       "rankings": {},
       "namemc": "https://namemc.com/profile/6d451c54-ecc7-4a39-a045-f0f5713ec475"
     },
+    "voidxrs": {
+      "uuid": "6d451c54-ecc7-4a39-a045-f0f5713ec475",
+      "name": "VoiDxRS",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/profile/6d451c54-ecc7-4a39-a045-f0f5713ec475"
+    },
     "6d451c54ecc74a39a045f0f5713ec475": {
       "uuid": "6d451c54-ecc7-4a39-a045-f0f5713ec475",
       "name": "VoiDxRS",
@@ -24978,6 +26258,15 @@
       "namemc": "https://namemc.com/profile/6d451c54-ecc7-4a39-a045-f0f5713ec475"
     },
     "x21xWasTaken": {
+      "uuid": "00007345-000d-4000-8000-0007a79813b8",
+      "name": "x21xWasTaken",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=x21xWasTaken"
+    },
+    "x21xwastaken": {
       "uuid": "00007345-000d-4000-8000-0007a79813b8",
       "name": "x21xWasTaken",
       "region": "AS",
