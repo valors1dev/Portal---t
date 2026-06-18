@@ -2471,10 +2471,17 @@
     "isPlaceholder": true
   },
   "SHADOWX_X": {
-    "uuid": "00000000-0000-4000-8000-00AD00000000",
+    "uuid": "1ebd6226-875d-458c-8b42-b4daad29eebe",
     "name": "SHADOWX_X",
-    "namemc": "https://namemc.com/search?q=SHADOWX_X",
-    "skinRender": "/skins/00000000-0000-4000-8000-00AD00000000.webp",
-    "isPlaceholder": true
+    "namemc": "https://namemc.com/profile/1ebd6226-875d-458c-8b42-b4daad29eebe",
+    "skinRender": "https://render.crafty.gg/3d/bust/1ebd6226-875d-458c-8b42-b4daad29eebe",
+    "isPlaceholder": false
+  },
+  "itzreallytuff": {
+    "uuid": "d0990beb-f8a9-42de-a01f-e779b01f952e",
+    "name": "itzreallytuff",
+    "namemc": "https://namemc.com/profile/d0990beb-f8a9-42de-a01f-e779b01f952e",
+    "skinRender": "https://render.crafty.gg/3d/bust/d0990beb-f8a9-42de-a01f-e779b01f952e",
+    "isPlaceholder": false
   }
 }
