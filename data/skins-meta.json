@@ -2420,5 +2420,12 @@
     "namemc": "https://namemc.com/search?q=shauryaYT1",
     "skinRender": "/skins/00000000-0000-4000-8000-00a000a00100.webp",
     "isPlaceholder": true
+  },
+  "SKY_PLYZ": {
+    "uuid": "00000000-0000-4000-8000-000000000000",
+    "name": "SKY_PLYZ",
+    "namemc": "https://namemc.com/search?q=SKY_PLYZ",
+    "skinRender": "/skins/00000000-0000-4000-8000-000000000000.webp",
+    "isPlaceholder": true
   }
 }
