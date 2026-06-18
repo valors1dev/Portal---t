@@ -2569,10 +2569,10 @@
     "isPlaceholder": true
   },
   "_TheMirage": {
-    "uuid": "00000000-0000-4000-8000-000e000a0e00",
+    "uuid": "97216ebb-69a1-4886-95bf-85fc56b94285",
     "name": "_TheMirage",
-    "namemc": "https://namemc.com/search?q=_TheMirage",
-    "skinRender": "/skins/00000000-0000-4000-8000-000e000a0e00.webp",
-    "isPlaceholder": true
+    "namemc": "https://namemc.com/profile/97216ebb-69a1-4886-95bf-85fc56b94285",
+    "skinRender": "https://render.crafty.gg/3d/bust/97216ebb-69a1-4886-95bf-85fc56b94285",
+    "isPlaceholder": false
   }
 }
