@@ -2483,5 +2483,12 @@
     "namemc": "https://namemc.com/profile/d0990beb-f8a9-42de-a01f-e779b01f952e",
     "skinRender": "https://render.crafty.gg/3d/bust/d0990beb-f8a9-42de-a01f-e779b01f952e",
     "isPlaceholder": false
+  },
+  "simonkarki_96": {
+    "uuid": "00000000-0000-4000-8000-000000a00009",
+    "name": "simonkarki_96",
+    "namemc": "https://namemc.com/search?q=simonkarki_96",
+    "skinRender": "/skins/00000000-0000-4000-8000-000000a00009.webp",
+    "isPlaceholder": true
   }
 }
