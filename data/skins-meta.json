@@ -2427,5 +2427,12 @@
     "namemc": "https://namemc.com/search?q=SKY_PLYZ",
     "skinRender": "/skins/00000000-0000-4000-8000-000000000000.webp",
     "isPlaceholder": true
+  },
+  "PrimeRyuu_": {
+    "uuid": "00000000-0000-4000-8000-0000e0000000",
+    "name": "PrimeRyuu_",
+    "namemc": "https://namemc.com/search?q=PrimeRyuu_",
+    "skinRender": "/skins/00000000-0000-4000-8000-0000e0000000.webp",
+    "isPlaceholder": true
   }
 }
