@@ -2469,5 +2469,12 @@
     "namemc": "https://namemc.com/search?q=RaqyxX",
     "skinRender": "/skins/00000000-0000-4000-8000-0a0000000000.webp",
     "isPlaceholder": true
+  },
+  "SHADOWX_X": {
+    "uuid": "00000000-0000-4000-8000-00AD00000000",
+    "name": "SHADOWX_X",
+    "namemc": "https://namemc.com/search?q=SHADOWX_X",
+    "skinRender": "/skins/00000000-0000-4000-8000-00AD00000000.webp",
+    "isPlaceholder": true
   }
 }
