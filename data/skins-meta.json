@@ -2072,11 +2072,11 @@
     "isPlaceholder": true
   },
   "DynastyTheOG": {
-    "uuid": "00000000-0000-4000-8000-D00a00000e00",
+    "uuid": "4aba4bd0-4545-4f75-9817-62312e1220d0",
     "name": "DynastyTheOG",
-    "namemc": "https://namemc.com/search?q=DynastyTheOG",
-    "skinRender": "/skins/00000000-0000-4000-8000-D00a00000e00.webp",
-    "isPlaceholder": true
+    "namemc": "https://namemc.com/profile/4aba4bd0-4545-4f75-9817-62312e1220d0",
+    "skinRender": "https://render.crafty.gg/3d/bust/4aba4bd0-4545-4f75-9817-62312e1220d0",
+    "isPlaceholder": false
   },
   "FaisalGaming19": {
     "uuid": "00000000-0000-4000-8000-Fa00a00a0000",
@@ -2086,11 +2086,11 @@
     "isPlaceholder": true
   },
   "GANGSTERJETHYA": {
-    "uuid": "00000000-0000-4000-8000-0A0000E00E00",
+    "uuid": "6360f8fe-1ddc-4916-a129-167d03b8b1f6",
     "name": "GANGSTERJETHYA",
-    "namemc": "https://namemc.com/search?q=GANGSTERJETHYA",
-    "skinRender": "/skins/00000000-0000-4000-8000-0A0000E00E00.webp",
-    "isPlaceholder": true
+    "namemc": "https://namemc.com/profile/6360f8fe-1ddc-4916-a129-167d03b8b1f6",
+    "skinRender": "https://render.crafty.gg/3d/bust/6360f8fe-1ddc-4916-a129-167d03b8b1f6",
+    "isPlaceholder": false
   },
   "UnfairUv_": {
     "uuid": "00000000-0000-4000-8000-00fa00000000",
@@ -2121,18 +2121,18 @@
     "isPlaceholder": true
   },
   "ITZ_VEZZY": {
-    "uuid": "00000000-0000-4000-8000-00000E000000",
+    "uuid": "0e5c019d-0377-44c0-bd42-96be8a138e79",
     "name": "ITZ_VEZZY",
-    "namemc": "https://namemc.com/search?q=ITZ_VEZZY",
-    "skinRender": "/skins/00000000-0000-4000-8000-00000E000000.webp",
-    "isPlaceholder": true
+    "namemc": "https://namemc.com/profile/0e5c019d-0377-44c0-bd42-96be8a138e79",
+    "skinRender": "https://render.crafty.gg/3d/bust/0e5c019d-0377-44c0-bd42-96be8a138e79",
+    "isPlaceholder": false
   },
   "DirectlyOG": {
-    "uuid": "00000000-0000-4000-8000-D00ec0000000",
+    "uuid": "37558654-dc18-4d9e-8b50-a78a8d78a2e7",
     "name": "DirectlyOG",
-    "namemc": "https://namemc.com/search?q=DirectlyOG",
-    "skinRender": "/skins/00000000-0000-4000-8000-D00ec0000000.webp",
-    "isPlaceholder": true
+    "namemc": "https://namemc.com/profile/37558654-dc18-4d9e-8b50-a78a8d78a2e7",
+    "skinRender": "https://render.crafty.gg/3d/bust/37558654-dc18-4d9e-8b50-a78a8d78a2e7",
+    "isPlaceholder": false
   },
   "NotShamu": {
     "uuid": "00000000-0000-4000-8000-00000a000000",
@@ -2142,11 +2142,11 @@
     "isPlaceholder": true
   },
   "NotNexx95": {
-    "uuid": "00000000-0000-4000-8000-0000e0095000",
+    "uuid": "19081632-b87b-4d9b-b147-ad4ed6802d64",
     "name": "NotNexx95",
-    "namemc": "https://namemc.com/search?q=NotNexx95",
-    "skinRender": "/skins/00000000-0000-4000-8000-0000e0095000.webp",
-    "isPlaceholder": true
+    "namemc": "https://namemc.com/profile/19081632-b87b-4d9b-b147-ad4ed6802d64",
+    "skinRender": "https://render.crafty.gg/3d/bust/19081632-b87b-4d9b-b147-ad4ed6802d64",
+    "isPlaceholder": false
   },
   "zarif22": {
     "uuid": "00000000-0000-4000-8000-0a00f2200000",
@@ -2373,11 +2373,11 @@
     "isPlaceholder": true
   },
   "azerdagoat": {
-    "uuid": "00000000-0000-4000-8000-a0e0da00a000",
+    "uuid": "0185c3b6-e2c4-4c16-9016-4882e90eadff",
     "name": "azerdagoat",
-    "namemc": "https://namemc.com/search?q=azerdagoat",
-    "skinRender": "/skins/00000000-0000-4000-8000-a0e0da00a000.webp",
-    "isPlaceholder": true
+    "namemc": "https://namemc.com/profile/0185c3b6-e2c4-4c16-9016-4882e90eadff",
+    "skinRender": "https://render.crafty.gg/3d/bust/0185c3b6-e2c4-4c16-9016-4882e90eadff",
+    "isPlaceholder": false
   },
   "ItsSamanyu": {
     "uuid": "fa943723-a876-4569-9933-7d3fa643fb58",
@@ -2454,6 +2454,13 @@
     "name": "VEER3686",
     "namemc": "https://namemc.com/search?q=VEER3686",
     "skinRender": "/skins/00000000-0000-4000-8000-0EE036860000.webp",
+    "isPlaceholder": true
+  },
+  "itsNotKnox": {
+    "uuid": "00000000-0000-4000-8000-000000000000",
+    "name": "itsNotKnox",
+    "namemc": "https://namemc.com/search?q=itsNotKnox",
+    "skinRender": "/skins/00000000-0000-4000-8000-000000000000.webp",
     "isPlaceholder": true
   }
 }
