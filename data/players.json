@@ -4,7 +4,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 51,
+      "points": 71,
       "rankings": {
         "pot": {
           "tier": 3,
@@ -45,6 +45,13 @@
           "tier": 4,
           "pos": 1,
           "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
           "peak_pos": 1,
           "retired": false
         }
@@ -6900,6 +6907,12 @@
     "nethop": {
       "2": [
         {
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
+          "region": "AS",
+          "pos": 1
+        },
+        {
           "uuid": "00000000-0000-4000-8000-000000a00009",
           "name": "simonkarki_96",
           "region": "N/A",
@@ -8197,7 +8210,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 51,
+      "points": 71,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8239,6 +8252,13 @@
           "tier": 4,
           "pos": 1,
           "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
           "peak_pos": 1,
           "retired": false
         }
@@ -8249,7 +8269,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 51,
+      "points": 71,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8291,6 +8311,13 @@
           "tier": 4,
           "pos": 1,
           "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
           "peak_pos": 1,
           "retired": false
         }
@@ -8301,7 +8328,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 51,
+      "points": 71,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8343,6 +8370,13 @@
           "tier": 4,
           "pos": 1,
           "peak_tier": 4,
+          "peak_pos": 1,
+          "retired": false
+        },
+        "nethop": {
+          "tier": 2,
+          "pos": 1,
+          "peak_tier": 2,
           "peak_pos": 1,
           "retired": false
         }
@@ -28884,6 +28918,5 @@
       "rankings": {},
       "namemc": "https://namemc.com/search?q=zarif22"
     }
-  },
-  "lastUpdated": 1781777551155
+  }
 }
