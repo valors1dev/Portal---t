@@ -4,13 +4,13 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 50,
+      "points": 104,
       "rankings": {
         "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
           "retired": false
         },
         "mace": {
@@ -6104,18 +6104,20 @@
       ]
     },
     "pot": {
+      "1": [
+        {
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
+          "region": "AS",
+          "pos": 0
+        }
+      ],
       "3": [
         {
           "uuid": "00000000-0000-4000-8000-000000a00009",
           "name": "simonkarki_96",
           "region": "N/A",
           "pos": 0
-        },
-        {
-          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-          "name": "xiots_",
-          "region": "AS",
-          "pos": 1
         },
         {
           "uuid": "00000616-0000-4000-8000-0000677a9f8d",
@@ -8227,14 +8229,14 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 50,
+      "points": 104,
       "overall": 1,
       "rankings": {
         "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
           "retired": false
         },
         "mace": {
@@ -8286,14 +8288,14 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 50,
+      "points": 104,
       "overall": 1,
       "rankings": {
         "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
           "retired": false
         },
         "mace": {
@@ -8345,14 +8347,14 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 50,
+      "points": 104,
       "overall": 1,
       "rankings": {
         "pot": {
-          "tier": 3,
-          "pos": 1,
-          "peak_tier": 3,
-          "peak_pos": 1,
+          "tier": 1,
+          "pos": 0,
+          "peak_tier": 1,
+          "peak_pos": 0,
           "retired": false
         },
         "mace": {
