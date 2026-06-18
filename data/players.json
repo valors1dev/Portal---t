@@ -4,7 +4,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 67,
+      "points": 94,
       "rankings": {
         "pot": {
           "tier": 3,
@@ -42,10 +42,10 @@
           "retired": false
         },
         "axe": {
-          "tier": 4,
-          "pos": 1,
-          "peak_tier": 4,
-          "peak_pos": 1,
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
           "retired": false
         },
         "nethop": {
@@ -7472,6 +7472,14 @@
       ]
     },
     "axe": {
+      "2": [
+        {
+          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
+          "name": "xiots_",
+          "region": "AS",
+          "pos": 0
+        }
+      ],
       "3": [
         {
           "uuid": "00000616-0000-4000-8000-0000677a9f8d",
@@ -7552,12 +7560,6 @@
           "name": "unrealArcn",
           "region": "AS",
           "pos": 0
-        },
-        {
-          "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
-          "name": "xiots_",
-          "region": "AS",
-          "pos": 1
         },
         {
           "uuid": "00004b68-0009-4000-8000-000501e921fd",
@@ -8231,7 +8233,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 67,
+      "points": 94,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8270,10 +8272,10 @@
           "retired": false
         },
         "axe": {
-          "tier": 4,
-          "pos": 1,
-          "peak_tier": 4,
-          "peak_pos": 1,
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
           "retired": false
         },
         "nethop": {
@@ -8290,7 +8292,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 67,
+      "points": 94,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8329,10 +8331,10 @@
           "retired": false
         },
         "axe": {
-          "tier": 4,
-          "pos": 1,
-          "peak_tier": 4,
-          "peak_pos": 1,
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
           "retired": false
         },
         "nethop": {
@@ -8349,7 +8351,7 @@
       "uuid": "17623ecd-0b9b-4183-b9e2-fa4764a403da",
       "name": "xiots_",
       "region": "AS",
-      "points": 67,
+      "points": 94,
       "overall": 1,
       "rankings": {
         "pot": {
@@ -8388,10 +8390,10 @@
           "retired": false
         },
         "axe": {
-          "tier": 4,
-          "pos": 1,
-          "peak_tier": 4,
-          "peak_pos": 1,
+          "tier": 2,
+          "pos": 0,
+          "peak_tier": 2,
+          "peak_pos": 0,
           "retired": false
         },
         "nethop": {
@@ -28090,6 +28092,42 @@
       "rankings": {},
       "namemc": "https://namemc.com/profile/3274b0c1-f7bb-493b-8e18-647984e86ab6"
     },
+    "Ryu_Aku": {
+      "uuid": "00000000-0000-4000-8000-0000A0000000",
+      "name": "Ryu_Aku",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Ryu_Aku"
+    },
+    "ryu_aku": {
+      "uuid": "00000000-0000-4000-8000-0000A0000000",
+      "name": "Ryu_Aku",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Ryu_Aku"
+    },
+    "000000000000400080000000a0000000": {
+      "uuid": "00000000-0000-4000-8000-0000A0000000",
+      "name": "Ryu_Aku",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Ryu_Aku"
+    },
+    "90f447f1a3ec3cbfa927ef0efaca9e10": {
+      "uuid": "00000000-0000-4000-8000-0000A0000000",
+      "name": "Ryu_Aku",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Ryu_Aku"
+    },
     "ryu_ue": {
       "uuid": "00000000-0000-4000-8000-00000e000000",
       "name": "ryu_ue",
@@ -28737,6 +28775,42 @@
       "overall": 0,
       "rankings": {},
       "namemc": "https://namemc.com/profile/94d1ad0e-6a38-4d9f-bb75-717195bdaf28"
+    },
+    "Thiroda_boy": {
+      "uuid": "00000000-0000-4000-8000-00000da0b000",
+      "name": "Thiroda_boy",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Thiroda_boy"
+    },
+    "thiroda_boy": {
+      "uuid": "00000000-0000-4000-8000-00000da0b000",
+      "name": "Thiroda_boy",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Thiroda_boy"
+    },
+    "0000000000004000800000000da0b000": {
+      "uuid": "00000000-0000-4000-8000-00000da0b000",
+      "name": "Thiroda_boy",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Thiroda_boy"
+    },
+    "2642d70cde5c38a98e7dd59d93f9d851": {
+      "uuid": "00000000-0000-4000-8000-00000da0b000",
+      "name": "Thiroda_boy",
+      "region": "AS",
+      "points": 0,
+      "overall": 0,
+      "rankings": {},
+      "namemc": "https://namemc.com/search?q=Thiroda_boy"
     },
     "TOXIC_4C3": {
       "uuid": "00005468-000a-4000-8000-00059af24ca7",

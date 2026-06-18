@@ -2588,5 +2588,19 @@
     "namemc": "https://namemc.com/search?q=RaxZo_",
     "skinRender": "/skins/00000000-0000-4000-8000-0a0000000000.webp",
     "isPlaceholder": true
+  },
+  "Ryu_Aku": {
+    "uuid": "00000000-0000-4000-8000-0000A0000000",
+    "name": "Ryu_Aku",
+    "namemc": "https://namemc.com/search?q=Ryu_Aku",
+    "skinRender": "/skins/00000000-0000-4000-8000-0000A0000000.webp",
+    "isPlaceholder": true
+  },
+  "Thiroda_boy": {
+    "uuid": "00000000-0000-4000-8000-00000da0b000",
+    "name": "Thiroda_boy",
+    "namemc": "https://namemc.com/search?q=Thiroda_boy",
+    "skinRender": "/skins/00000000-0000-4000-8000-00000da0b000.webp",
+    "isPlaceholder": true
   }
 }
