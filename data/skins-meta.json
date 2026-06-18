@@ -2574,5 +2574,19 @@
     "namemc": "https://namemc.com/profile/97216ebb-69a1-4886-95bf-85fc56b94285",
     "skinRender": "https://render.crafty.gg/3d/bust/97216ebb-69a1-4886-95bf-85fc56b94285",
     "isPlaceholder": false
+  },
+  "Scarface_King": {
+    "uuid": "00000000-0000-4000-8000-0ca0face0000",
+    "name": "Scarface_King",
+    "namemc": "https://namemc.com/search?q=Scarface_King",
+    "skinRender": "/skins/00000000-0000-4000-8000-0ca0face0000.webp",
+    "isPlaceholder": true
+  },
+  "RaxZo_": {
+    "uuid": "00000000-0000-4000-8000-0a0000000000",
+    "name": "RaxZo_",
+    "namemc": "https://namemc.com/search?q=RaxZo_",
+    "skinRender": "/skins/00000000-0000-4000-8000-0a0000000000.webp",
+    "isPlaceholder": true
   }
 }
